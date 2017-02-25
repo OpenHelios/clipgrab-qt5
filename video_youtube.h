@@ -24,13 +24,12 @@
 #ifndef video_YOUTUBE_H
 #define video_YOUTUBE_H
 
-#include "video.h"
-#include "QtWebKit"
+#include <QtWebKit>
 #include <QtGui>
-#include "QDomDocument"
+#include <QFile>
+#include <QDomDocument>
 #include "ui_login_dialog.h"
-
-#include "QFile"
+#include "video.h"
 
 struct fmtQuality
 {

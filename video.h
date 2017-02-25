@@ -26,6 +26,8 @@
 
 #include <QtGui>
 #include <QtNetwork>
+#include <QTreeWidgetItem>
+#include <QProgressBar>
 #include "converter.h"
 #include "converter_ffmpeg.h"
 #include "http_handler.h"

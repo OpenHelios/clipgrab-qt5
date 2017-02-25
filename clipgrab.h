@@ -28,6 +28,7 @@
 #include <QtNetwork>
 #include <QtXml>
 #include <QtDebug>
+#include <QSystemTrayIcon>
 
 #include "video.h"
 #include "video_youtube.h"

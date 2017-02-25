@@ -10,3 +10,6 @@ moc_*.cpp
 qrc_resources.cpp
 build
 ClipGrab.xcodeproj
+.qmake.stash
+clipgrab
+moc_predefs.h

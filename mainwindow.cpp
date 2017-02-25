@@ -23,7 +23,15 @@
 
 #include "mainwindow.h"
 
+#include <QShortcut>
+#include <QFileDialog>
+#include <QMessageBox>
+
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
 MainWindow::MainWindow(QWidget *parent, Qt::WFlags flags)
+#else
+MainWindow::MainWindow(QWidget *parent, Qt::WindowFlags flags)
+#endif
     : QMainWindow(parent, flags)
 {
     ui.setupUi(this);
@@ -72,9 +80,14 @@ void MainWindow::init()
     connect(ui.downloadLineEdit, SIGNAL(textChanged(QString)), cg, SLOT(determinePortal(QString)));
     connect(this, SIGNAL(itemToRemove(int)), cg, SLOT(removeDownload(int)));
     //connect(ui.downloadTree, SIGNAL(doubleClicked(QModelIndex)), this, openFinishedVideo(QModelIndex));
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
     ui.downloadTree->header()->setResizeMode(1, QHeaderView::Stretch);
-    ui.downloadTree->header()->setStretchLastSection(false);
     ui.downloadTree->header()->setResizeMode(3, QHeaderView::ResizeToContents);
+#else
+    ui.downloadTree->header()->setSectionResizeMode(1, QHeaderView::Stretch);
+    ui.downloadTree->header()->setSectionResizeMode(3, QHeaderView::ResizeToContents);
+#endif
+    ui.downloadTree->header()->setStretchLastSection(false);
     ui.downloadLineEdit->setFocus(Qt::OtherFocusReason);
 
     int lastFormat = cg->settings.value("LastFormat", 0).toInt();
@@ -107,7 +120,11 @@ void MainWindow::init()
     connect(this->ui.settingsRadioNotificationsNever, SIGNAL(toggled(bool)), this, SLOT(settingsNotifications_toggled(bool)));
 
 
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
     this->ui.settingsSavedPath->setText(cg->settings.value("savedPath", QDesktopServices::storageLocation(QDesktopServices::DesktopLocation)).toString());
+#else
+    this->ui.settingsSavedPath->setText(cg->settings.value("savedPath", QStandardPaths::standardLocations(QStandardPaths::DesktopLocation)).toString());
+#endif
     this->ui.settingsSaveLastPath->setChecked(cg->settings.value("saveLastPath", true).toBool());
     ui.settingsNeverAskForPath->setChecked(cg->settings.value("NeverAskForPath", false).toBool());
 
@@ -246,7 +263,11 @@ void MainWindow::init()
 
 void MainWindow::startDownload()
 {
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
     QString targetDirectory = cg->settings.value("savedPath", QDesktopServices::storageLocation(QDesktopServices::DesktopLocation)).toString();
+#else
+    QString targetDirectory = cg->settings.value("savedPath", QStandardPaths::standardLocations(QStandardPaths::DesktopLocation)).toString();
+#endif
     QString fileName = currentVideo->getSaveTitle();
 
     if (cg->settings.value("NeverAskForPath", false).toBool() == false)
@@ -675,9 +696,17 @@ void MainWindow::timerEvent(QTimerEvent *)
     if (downloadProgress.first != 0 && downloadProgress.second != 0)
     {
         #ifdef Q_WS_X11
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
             systemTrayIcon.setToolTip("<strong style=\"font-size:14px\">" + tr("ClipGrab") + "</strong><br /><span style=\"font-size:13px\">" + QString::number(downloadProgress.first*100/downloadProgress.second) + " %</span><br />" + QString::number((double)downloadProgress.first/1024/1024, QLocale::system().decimalPoint().toAscii(), 1) + tr(" MiB") + "/" + QString::number((double)downloadProgress.second/1024/1024, QLocale::system().decimalPoint().toAscii(), 1) + tr(" MiB"));
+#else
+            systemTrayIcon.setToolTip("<strong style=\"font-size:14px\">" + tr("ClipGrab") + "</strong><br /><span style=\"font-size:13px\">" + QString::number(downloadProgress.first*100/downloadProgress.second) + " %</span><br />" + QString::number((double)downloadProgress.first/1024/1024, QLocale::system().decimalPoint().toLatin1(), 1) + tr(" MiB") + "/" + QString::number((double)downloadProgress.second/1024/1024, QLocale::system().decimalPoint().toLatin1(), 1) + tr(" MiB"));
+#endif
         #else
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         systemTrayIcon.setToolTip(tr("ClipGrab") + " - " + QString::number(downloadProgress.first*100/downloadProgress.second) + " % - " + QString::number((double)downloadProgress.first/1024/1024, QLocale::system().decimalPoint().toAscii(), 1) + tr(" MiB") + "/" + QString::number((double)downloadProgress.second/1024/1024, QLocale::system().decimalPoint().toAscii(), 1) + tr(" KiB"));
+#else
+        systemTrayIcon.setToolTip(tr("ClipGrab") + " - " + QString::number(downloadProgress.first*100/downloadProgress.second) + " % - " + QString::number((double)downloadProgress.first/1024/1024, QLocale::system().decimalPoint().toLatin1(), 1) + tr(" MiB") + "/" + QString::number((double)downloadProgress.second/1024/1024, QLocale::system().decimalPoint().toLatin1(), 1) + tr(" KiB"));
+#endif
         #endif
         setWindowTitle("ClipGrab - " + QString::number(downloadProgress.first*100/downloadProgress.second) + " %");
     }

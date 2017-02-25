@@ -22,6 +22,9 @@
 
 
 #include "video_dailymotion.h"
+#if QT_VERSION >= QT_VERSION_CHECK(5,0,0)
+	#include <QtWebKitWidgets>
+#endif
 
 video_dailymotion::video_dailymotion()
 {
@@ -71,7 +74,11 @@ void video_dailymotion::parseVideo(QString html)
 
         _title = QString(expression.cap(1));
 
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         html = QUrl::fromEncoded(html.toAscii()).toString(QUrl::None);
+#else
+        html = QUrl::fromEncoded(html.toLatin1()).toString(QUrl::None);
+#endif
         expression = QRegExp("var config\\s*=\\s*(\\{.+\\});");
         expression.setMinimal(true);
         qDebug() << expression.indexIn(html);

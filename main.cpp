@@ -21,8 +21,9 @@
 
 
 
-#include <QtGui/QApplication>
+#include <QApplication>
 #include <QTranslator>
+#include <QSplashScreen>
 #include "mainwindow.h"
 #include "clipgrab.h"
 
@@ -39,8 +40,8 @@ int main(int argc, char *argv[])
     QCoreApplication::setApplicationName("ClipGrab");
     QCoreApplication::setApplicationVersion(QString(STRINGIZE_VALUE_OF(CLIPGRAB_VERSION)).replace("\"", ""));
     QSplashScreen splash(QPixmap(":/img/splash.png"), Qt::FramelessWindowHint);
-    QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
-    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
+//    QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
+//    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8"));
     QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
 
     splash.setMask(QPixmap(":/img/splash.png").mask());

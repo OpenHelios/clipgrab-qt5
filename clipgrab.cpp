@@ -23,6 +23,11 @@
 
 #include "clipgrab.h"
 
+#include <QMessageBox>
+#if QT_VERSION >= QT_VERSION_CHECK(5,0,0)
+#include <QUrlQuery>
+#endif
+
 ClipGrab::ClipGrab()
 {
     //*
@@ -264,16 +269,25 @@ void ClipGrab::getUpdateInfo()
 
     QString firstStarted = settings.value("firstStarted", "").toString();
 
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
     QUrl updateInfoRequestUrl("https://clipgrab.org/update/" + sys + "/");
+#else
+    QUrlQuery updateInfoRequestUrl("https://clipgrab.org/update/" + sys + "/");
+#endif
     updateInfoRequestUrl.addQueryItem("v", this->version);
     updateInfoRequestUrl.addQueryItem("l", QLocale::system().name().split("_")[0]);
     if (!firstStarted.isEmpty())
     {
         updateInfoRequestUrl.addQueryItem("t", firstStarted);
     }
-
     QNetworkRequest updateInfoRequest;
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
     updateInfoRequest.setUrl(updateInfoRequestUrl);
+#else
+    QUrl url;
+    url.setQuery(updateInfoRequestUrl);
+    updateInfoRequest.setUrl(url);
+#endif
     QNetworkAccessManager* updateInfoNAM = new QNetworkAccessManager;
     updateInfoNAM->get(updateInfoRequest);
     connect(updateInfoNAM, SIGNAL(finished(QNetworkReply*)), this, SLOT(parseUpdateInfo(QNetworkReply*)));

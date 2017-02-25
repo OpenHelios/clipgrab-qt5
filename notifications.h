@@ -25,6 +25,7 @@
 #define FOO_H
 
 #include <QtGui>
+#include <QSystemTrayIcon>
 
 #ifdef Q_WS_MAC64
 #include "notifications_mac.h"

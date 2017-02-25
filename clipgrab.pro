@@ -7,10 +7,20 @@ DEPENDPATH += . \
     release
 INCLUDEPATH += .
 QT += network
-QT += webkit
+equals(QT_VERSION, 4) {
+   QT += webkit
+}
+equals(QT_VERSION, 5){
+   QT += webkitwidgets
+}
 QT += xml
 
 # Input
+FORMS += mainwindow.ui \
+    metadata-dialog.ui \
+    update_message.ui \
+    message_dialog.ui \
+    login_dialog.ui
 HEADERS += clipgrab.h \
     converter.h \
     converter_copy.h \
@@ -26,11 +36,6 @@ HEADERS += clipgrab.h \
     http_handler.h \
     notifications.h \
     message_dialog.h
-FORMS += mainwindow.ui \
-    metadata-dialog.ui \
-    update_message.ui \
-    message_dialog.ui \
-    login_dialog.ui
 SOURCES += clipgrab.cpp \
     converter.cpp \
     converter_copy.cpp \

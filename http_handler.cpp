@@ -45,14 +45,22 @@ QNetworkRequest http_handler::createRequest(QUrl url)
 QNetworkReply* http_handler::addDownload(QString url, bool chunked, QByteArray postData, QStringList segments)
 {
     download* newDownload = new download;
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
     QNetworkRequest request = createRequest(QUrl::fromEncoded(url.toAscii()));
+#else
+    QNetworkRequest request = createRequest(QUrl::fromEncoded(url.toLatin1()));
+#endif
     newDownload->tempFile = new QTemporaryFile(QDir::tempPath() + "/clipgrab-download-XXXXXX");
     newDownload->size = 0;
     newDownload->redirectLevel = 0;
     newDownload->chunked = chunked;
     if (newDownload->chunked)
     {
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         request.setRawHeader("Range", QString("bytes=0-1397760").toAscii());
+#else
+        request.setRawHeader("Range", QString("bytes=0-1397760").toLatin1());
+#endif
     }
     if (!segments.isEmpty())
     {
@@ -121,7 +129,11 @@ void http_handler::continueDownload(download* dl)
         //If more parts need to be downloaded
         else
         {
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
             request.setRawHeader("Range", QString("bytes=" + QString::number(dl->getProgress()) + "-" + QString::number(targetBytes)).toAscii());
+#else
+            request.setRawHeader("Range", QString("bytes=" + QString::number(dl->getProgress()) + "-" + QString::number(targetBytes)).toLatin1());
+#endif
         }
     }
 
@@ -133,7 +145,11 @@ void http_handler::continueDownload(download* dl)
         dl->currentProgress = 0;
         dl->redirectLevel = 0;
         qint64 targetBytes = dl->size;
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         request.setRawHeader("Range", QString("bytes=" + QString::number(dl->getProgress()) + "-" + QString::number(targetBytes)).toAscii());
+#else
+        request.setRawHeader("Range", QString("bytes=" + QString::number(dl->getProgress()) + "-" + QString::number(targetBytes)).toLatin1());
+#endif
     }
 
 
@@ -227,7 +243,11 @@ void http_handler::handleNetworkReply(QNetworkReply* reply)
 
         dl->redirectLevel = 0;
         dl->segmentPosition++;
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         QNetworkRequest request = createRequest(QUrl::fromEncoded(dl->segments.at(dl->segmentPosition).toAscii()));
+#else
+        QNetworkRequest request = createRequest(QUrl::fromEncoded(dl->segments.at(dl->segmentPosition).toLatin1()));
+#endif
         dl->progress = dl->getProgress();
         dl->currentProgress = 0;
         dl->reply = this->networkAccessManager->get(request);
@@ -381,8 +401,16 @@ QList<QNetworkCookie> http_handler::deserializeCookies(QString serializedCookies
     QList<QNetworkCookie> cookies;
     for (int i = 0; i < serializedCookies.length(); i++)
     {
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         QString cookieString = QUrl::fromPercentEncoding(serializedCookies.at(i).toAscii());
+#else
+        QString cookieString = QUrl::fromPercentEncoding(serializedCookies.at(i).toLatin1());
+#endif
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         QList<QNetworkCookie> parsedCookies = QNetworkCookie::parseCookies(cookieString.toAscii());
+#else
+        QList<QNetworkCookie> parsedCookies = QNetworkCookie::parseCookies(cookieString.toLatin1());
+#endif
         for (int j = 0; j < parsedCookies.length(); j++)
         {
             cookies.append(parsedCookies.at(j));

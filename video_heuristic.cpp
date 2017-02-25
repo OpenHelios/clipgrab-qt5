@@ -124,7 +124,11 @@ void video_heuristic::parseVideo(QString html)
         {
             videoQuality newQuality;
             newQuality.containerName = expression.cap(2).prepend(".");
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
             newQuality.videoUrl = QUrl::fromPercentEncoding(expression.cap(1).toAscii());
+#else
+            newQuality.videoUrl = QUrl::fromPercentEncoding(expression.cap(1).toLatin1());
+#endif
             newQuality.quality = tr("normal");
             _supportedQualities.append(newQuality);
             emit analysingFinished();
@@ -138,7 +142,11 @@ void video_heuristic::parseVideo(QString html)
         {
             videoQuality newQuality;
             newQuality.containerName = expression.cap(2).prepend(".");
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
             newQuality.videoUrl = QUrl::fromPercentEncoding(expression.cap(1).toAscii());
+#else
+            newQuality.videoUrl = QUrl::fromPercentEncoding(expression.cap(1).toLatin1());
+#endif
             newQuality.quality = tr("normal");
             _supportedQualities.append(newQuality);
             emit analysingFinished();

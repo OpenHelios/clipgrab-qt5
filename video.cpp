@@ -195,7 +195,11 @@ void video::changeProgress(qint64 bytesReceived, qint64 bytesTotal)
             this->_progressBar->setFormat("%p%");
             this->_progressBar->setMaximum(bytesTotal);
             this->_progressBar->setValue(bytesReceived);
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
             setToolTip("<strong>" + tr("Downloading ...") + "</strong><br />" + QString::number((double)(bytesReceived)/1024/1024, QLocale::system().decimalPoint().toAscii(), 1) + tr(" MiB") + "/" + QString::number((double)bytesTotal/1024/1024, QLocale::system().decimalPoint().toAscii(), 1) + tr(" MiB"));
+#else
+            setToolTip("<strong>" + tr("Downloading ...") + "</strong><br />" + QString::number((double)(bytesReceived)/1024/1024, QLocale::system().decimalPoint().toLatin1(), 1) + tr(" MiB") + "/" + QString::number((double)bytesTotal/1024/1024, QLocale::system().decimalPoint().toLatin1(), 1) + tr(" MiB"));
+#endif
         }
     }
     else

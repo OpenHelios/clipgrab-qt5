@@ -22,7 +22,11 @@
 
 
 #include "video_youtube.h"
+
 #include "QMutableListIterator"
+#if QT_VERSION >= QT_VERSION_CHECK(5,0,0)
+	#include <QtWebKitWidgets>
+#endif
 
 video_youtube::video_youtube()
 {
@@ -103,7 +107,11 @@ QString video_youtube::getUrlFromFmtLink(QString link)
 
     if (urlExpression.indexIn(link) > -1)
     {
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         QString url = QUrl::fromEncoded(QUrl::fromEncoded(urlExpression.cap(1).toAscii()).toString().toAscii()).toString();
+#else
+        QString url = QUrl::fromEncoded(QUrl::fromEncoded(urlExpression.cap(1).toLatin1()).toString().toLatin1()).toString();
+#endif
 
         QRegExp sigExpression;
         sigExpression = QRegExp("(?:^|[^a-zA-Z])[,]?s(ig)?=([^,]+)");
@@ -663,7 +671,11 @@ void video_youtube::parseVideo(QString html)
             {
                 videoQuality newQuality;
                 newQuality.quality = tr("normal");
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
                 newQuality.videoUrl = QUrl::fromEncoded(QString("http://www.youtube.com/get_video?video_id=" + expression2.cap(1) + "&t=" + expression.cap(1)).toAscii()).toString(QUrl::None);
+#else
+                newQuality.videoUrl = QUrl::fromEncoded(QString("http://www.youtube.com/get_video?video_id=" + expression2.cap(1) + "&t=" + expression.cap(1)).toLatin1()).toString(QUrl::None);
+#endif
                 _supportedQualities.append(newQuality);
             }
             else

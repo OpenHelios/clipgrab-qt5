@@ -24,7 +24,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 #include <QSignalMapper>
 #include <QtXml>
 #include <QUrl>
@@ -43,7 +43,11 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
     MainWindow(QWidget *parent = 0, Qt::WFlags flags = 0);
+#else
+    MainWindow(QWidget *parent = 0, Qt::WindowFlags flags = 0);
+#endif
     ~MainWindow();
     void init();
 
