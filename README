@@ -1,7 +1,11 @@
+This is a fork of ClibGrab for porting it to Qt5 by using the original 
+sources from https://download.clipgrab.org/clipgrab-3.6.3.tar.gz
+
 ﻿Compiling ClipGrab is really easy.
 
-You will only need the Qt4 developer libraries in order to compile the program.
-In addition, ffmpeg (no developer libs necessary) needs to be installed.
+You will only need the Qt4 or Qt5 developer libraries in order to compile
+the program. In addition, ffmpeg (no developer libs necessary) needs to 
+be installed.
 
 
 To compile ClipGrab, simply execute
