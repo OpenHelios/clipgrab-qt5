@@ -1,10 +1,13 @@
+/debug/
+/release/
 *~
 .DS_Store
-clipgrab.pro.user
+clipgrab.pro.user*
 ClipGrab.app
 ui_*.h
 Makefile
-*.o
+Makefile.Debug
+Makefile.Release
 moc_*.cpp
 *.autosave
 qrc_resources.cpp

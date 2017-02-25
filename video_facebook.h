@@ -24,9 +24,9 @@
 #ifndef VIDEO_FACEBOOK_H
 #define VIDEO_FACEBOOK_H
 
+#include <QtWebKit/QtWebKit>
 #include "video.h"
 #include "ui_login_dialog.h"
-#include "QtWebKit"
 
 class video_facebook : public video
 {

@@ -26,8 +26,10 @@
 
 #include <QtGui>
 #include <QtNetwork>
-#include <QTreeWidgetItem>
-#include <QProgressBar>
+#if QT_VERSION >= QT_VERSION_CHECK(5,0,0)
+#include <QtWidgets/QTreeWidgetItem>
+#include <QtWidgets/QProgressBar>
+#endif
 #include "converter.h"
 #include "converter_ffmpeg.h"
 #include "http_handler.h"

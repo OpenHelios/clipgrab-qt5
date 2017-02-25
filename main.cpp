@@ -19,11 +19,15 @@
     along with ClipGrab.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-
-
-#include <QApplication>
-#include <QTranslator>
+#include <qglobal.h>
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
+#include <QtGui/QApplication>
 #include <QSplashScreen>
+#else
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QSplashScreen>
+#endif
+#include <QTranslator>
 #include "mainwindow.h"
 #include "clipgrab.h"
 

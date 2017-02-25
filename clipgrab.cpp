@@ -23,8 +23,10 @@
 
 #include "clipgrab.h"
 
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
 #include <QMessageBox>
-#if QT_VERSION >= QT_VERSION_CHECK(5,0,0)
+#else
+#include <QtWidgets/QMessageBox>
 #include <QUrlQuery>
 #endif
 

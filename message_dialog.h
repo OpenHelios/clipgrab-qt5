@@ -1,9 +1,14 @@
 #ifndef MESSAGE_DIALOG_H
 #define MESSAGE_DIALOG_H
 
+#include <QtGui/QDesktopServices>
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
 #include <QDialog>
 #include <QWebPage>
-#include <QDesktopServices>
+#else
+#include <QtWidgets/QDialog>
+#include <QtWebKitWidgets/QWebPage>
+#endif
 
 namespace Ui {
 class messageDialog;

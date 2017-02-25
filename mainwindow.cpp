@@ -23,9 +23,17 @@
 
 #include "mainwindow.h"
 
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
+#include <QSystemTrayIcon>
 #include <QShortcut>
 #include <QFileDialog>
 #include <QMessageBox>
+#else
+#include <QtWidgets/QSystemTrayIcon>
+#include <QtWidgets/QShortcut>
+#include <QtWidgets/QFileDialog>
+#include <QtWidgets/QMessageBox>
+#endif
 
 #if QT_VERSION < QT_VERSION_CHECK(5,0,0)
 MainWindow::MainWindow(QWidget *parent, Qt::WFlags flags)

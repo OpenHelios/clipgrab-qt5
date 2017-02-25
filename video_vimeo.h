@@ -24,10 +24,15 @@
 #ifndef video_vimeo_H
 #define video_vimeo_H
 
+#include <qglobal.h>
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
+#include <QWebPage>
+#include <QWebFrame>
+#include <QWebElement>
+#else
+#include <QtWebKitWidgets/QtWebKitWidgets>
+#endif
 #include "video.h"
-#include "QWebPage"
-#include "QWebFrame"
-#include "QWebElement"
 #include "ui_login_dialog.h"
 
 class video_vimeo : public video

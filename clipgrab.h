@@ -28,7 +28,10 @@
 #include <QtNetwork>
 #include <QtXml>
 #include <QtDebug>
-#include <QSystemTrayIcon>
+
+#if QT_VERSION >= QT_VERSION_CHECK(5,0,0)
+#include <QtWidgets/QSystemTrayIcon>
+#endif
 
 #include "video.h"
 #include "video_youtube.h"

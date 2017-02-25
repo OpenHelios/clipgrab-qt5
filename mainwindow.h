@@ -24,10 +24,14 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
 #include <QSignalMapper>
 #include <QtXml>
 #include <QUrl>
+#if QT_VERSION < QT_VERSION_CHECK(5,0,0)
+#include <QMainWindow>
+#else
+#include <QtWidgets/QMainWindow>
+#endif
 #include "ui_mainwindow.h"
 #include "ui_metadata-dialog.h"
 #include "clipgrab.h"

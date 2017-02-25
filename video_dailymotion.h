@@ -23,8 +23,9 @@
 
 #ifndef VIDEO_DAILYMOTION_H
 #define VIDEO_DAILYMOTION_H
+
+#include <QtWebKit/QtWebKit>
 #include "video.h"
-#include "QtWebKit"
 
 struct dailymotion_quality
 {
