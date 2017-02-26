@@ -110,7 +110,7 @@ QString video_youtube::getUrlFromFmtLink(QString link)
 #if QT_VERSION < QT_VERSION_CHECK(5,0,0)
         QString url = QUrl::fromEncoded(QUrl::fromEncoded(urlExpression.cap(1).toAscii()).toString().toAscii()).toString();
 #else
-        QString url = QUrl::fromEncoded(QUrl::fromEncoded(urlExpression.cap(1).toLatin1()).toString().toLatin1()).toString();
+        QString url = QUrl::fromPercentEncoding(QUrl::fromPercentEncoding(urlExpression.cap(1).toUtf8()).toUtf8());
 #endif
 
         QRegExp sigExpression;
