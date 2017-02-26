@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
     w.cg = &cg;
     w.init();
     w.show();
-    splash.finish(w.centralWidget());
+    splash.finish(&w);
     cg.getUpdateInfo();
     return app.exec();
 }
