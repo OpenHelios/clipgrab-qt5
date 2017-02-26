@@ -74,6 +74,7 @@ int main(int argc, char *argv[])
     }
 
     MainWindow w;
+    splash.finish(&w);
     w.cg = &cg;
     w.init();
     if ("" != settings.value("x", ""))
@@ -89,7 +90,6 @@ int main(int argc, char *argv[])
     {
         w.show();
     }
-    splash.finish(&w);
     cg.getUpdateInfo();
     return app.exec();
 }
