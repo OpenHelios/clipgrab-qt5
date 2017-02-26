@@ -71,7 +71,19 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.cg = &cg;
     w.init();
-    w.show();
+    if ("" != settings.value("x", ""))
+    {
+        w.move(settings.value("x").toInt(), settings.value("y").toInt());
+        w.resize(settings.value("width").toInt(), settings.value("height").toInt());
+    }
+    if (settings.value("isMaximized", false).toBool())
+    {
+        w.showMaximized();
+    }
+    else
+    {
+        w.show();
+    }
     splash.finish(&w);
     cg.getUpdateInfo();
     return app.exec();

@@ -34,6 +34,14 @@ MainWindow::MainWindow(QWidget *parent, Qt::WFlags flags)
 
 MainWindow::~MainWindow()
 {
+    QSettings settings;
+    settings.setValue("isMaximized", isMaximized());
+    if (!isMaximized()) { // the position and size is only valid if not maximized
+        settings.setValue("x", x());
+        settings.setValue("y", y());
+        settings.setValue("width", width());
+        settings.setValue("height", height());
+    }
 }
 
 void MainWindow::init()
