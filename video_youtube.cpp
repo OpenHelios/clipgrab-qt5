@@ -223,7 +223,7 @@ void video_youtube::parseJS(QString js)
 {
     QString methodName;
 
-    QRegExp expression("signature=|set\\(\"signature\",(.+)\\(");
+    QRegExp expression("signature=|set\\(\"signature\",([$\\w]+)\\(");
     expression.setMinimal(true);
     if (expression.indexIn(js) != -1)
     {

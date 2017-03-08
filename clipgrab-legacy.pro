@@ -49,10 +49,12 @@ SOURCES += clipgrab.cpp \
     message_dialog.cpp
 RESOURCES += resources.qrc
 TRANSLATIONS += clipgrab_ca.ts \
+                clipgrab_ca.ts \
                 clipgrab_cs.ts \
                 clipgrab_de.ts \
                 clipgrab_el.ts \
                 clipgrab_es.ts \
+                clipgrab_fa.ts \
                 clipgrab_fr.ts \
                 clipgrab_fi.ts \
                 clipgrab_hu.ts \
@@ -65,6 +67,8 @@ TRANSLATIONS += clipgrab_ca.ts \
                 clipgrab_pt.ts \
                 clipgrab_ro.ts \
                 clipgrab_ru.ts \
+                clipgrab_si.ts \
+                clipgrab_sv.ts \
                 clipgrab_sw.ts \
                 clipgrab_tr.ts \
                 clipgrab_vi.ts \
@@ -81,6 +85,6 @@ macx {
     CONFIG += x86 ppc
     QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.5
 }
-VERSION = 3.6.3
+VERSION = 3.6.4
 DEFINES += MAC_LEGACY
 DEFINES += CLIPGRAB_VERSION='"$${VERSION}"'

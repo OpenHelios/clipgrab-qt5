@@ -10,22 +10,22 @@
         <translation>Automatische taal herkenning</translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="469"/>
+        <location filename="clipgrab.cpp" line="486"/>
         <source>Downloading update … %1/%2 MBytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="478"/>
+        <location filename="clipgrab.cpp" line="495"/>
         <source>There was an error while downloading the update.: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="492"/>
+        <location filename="clipgrab.cpp" line="509"/>
         <source>The fingerprint of the downloaded update file could not be verified: %1 should have been %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="504"/>
+        <location filename="clipgrab.cpp" line="521"/>
         <source>Could not open update file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -61,150 +61,150 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="mainwindow.cpp" line="247"/>
-        <location filename="mainwindow.cpp" line="259"/>
+        <location filename="mainwindow.cpp" line="249"/>
+        <location filename="mainwindow.cpp" line="261"/>
         <source>Select Target</source>
         <translation>Selecteer Bestand</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="329"/>
+        <location filename="mainwindow.cpp" line="331"/>
         <source>Please wait while ClipGrab is loading information about the video ...</source>
         <translation>Clipgrab is informatie aan het laden over de video...</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="346"/>
+        <location filename="mainwindow.cpp" line="348"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>Plak hier de link naar de video die u wilt downloaden .</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="351"/>
+        <location filename="mainwindow.cpp" line="353"/>
         <source>The link you have entered seems to not be recognised by any of the supported portals.&lt;br/&gt;Now ClipGrab will check if it can download a video from that site anyway.</source>
         <translation>De link die u heeft ingevoerd wordt niet herkend bij een van de ondersteunde websites.&lt;br/&gt;Clip gaat nu kijken of de video toch van deze site is.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="398"/>
+        <location filename="mainwindow.cpp" line="400"/>
         <source>No downloadable video could be found.&lt;br /&gt;Maybe you have entered the wrong link or there is a problem with your connection.</source>
         <translation>Deze link bevat geen video content.&lt;br /&gt;Meschien heeft u de verkeerde link geplakt of is er een probleem met uw connectie.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="411"/>
+        <location filename="mainwindow.cpp" line="413"/>
         <source>ClipGrab - Select target path</source>
         <translation>ClipGrab -Selecteer bestand adres</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="458"/>
+        <location filename="mainwindow.cpp" line="460"/>
         <source>ClipGrab: Video discovered in your clipboard</source>
         <translation>ClipGrab: Er is een video gevonden in uw klembord</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="458"/>
+        <location filename="mainwindow.cpp" line="460"/>
         <source>ClipGrab has discovered the address of a compatible video in your clipboard. Click on this message to download it now.</source>
         <translation>ClipGrab heeft een adres van een compatible video in uw klembord. Klik op dit bericht om het direct te downloaden.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="566"/>
         <source>ClipGrab - Exit confirmation</source>
         <translation>ClipGrab -Afsluiten besvesteging</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="566"/>
         <source>There is still at least one download in progress.&lt;br /&gt;If you exit the program now, all downloads will be canceled and cannot be recovered later.&lt;br /&gt;Do you really want to quit ClipGrab now?</source>
         <translation>Er is teminste nog een download bezig.&lt;br /&gt;Als u ClipGrab nu beëindigd, worden alle downloads verwijderd en kunnen niet worden hersteld.&lt;br /&gt;Wilt u nog steeds ClipGrab beëindigen?</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="601"/>
+        <location filename="mainwindow.cpp" line="603"/>
         <source>Download finished</source>
         <translation>Download klaar</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="601"/>
+        <location filename="mainwindow.cpp" line="603"/>
         <source>Downloading and converting “%title” is now finished.</source>
         <translation>Downloaden en converteren &quot;%titel&quot; is nu klaar.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="mainwindow.cpp" line="607"/>
         <source>All downloads finished</source>
         <translation>Alle downloads zijn klaar</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="mainwindow.cpp" line="607"/>
         <source>ClipGrab has finished downloading and converting all selected videos.</source>
         <translation>ClipGrab heeft alle geselecteerde videos gedownload en geconverteerd.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="670"/>
         <location filename="mainwindow.cpp" line="672"/>
-        <location filename="mainwindow.cpp" line="679"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <location filename="mainwindow.cpp" line="681"/>
+        <location filename="mainwindow.cpp" line="683"/>
         <source>ClipGrab</source>
         <translation>ClipGrab</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="670"/>
         <location filename="mainwindow.cpp" line="672"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <source> MiB</source>
         <translatorcomment>This is standing for Mebibyte???</translatorcomment>
         <translation> MiB</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="672"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <source> KiB</source>
         <translatorcomment>This is standing for Kibibyte??</translatorcomment>
         <translation> KiB</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="679"/>
         <location filename="mainwindow.cpp" line="681"/>
+        <location filename="mainwindow.cpp" line="683"/>
         <source>Currently no downloads in progress.</source>
         <translation>Op dit moment zijn er geen downloads bezig.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="682"/>
+        <location filename="mainwindow.cpp" line="684"/>
         <source>ClipGrab - Download and Convert Online Videos</source>
         <translation>ClipGrab - Download en Converteer Online Videos</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="878"/>
+        <location filename="mainwindow.cpp" line="880"/>
         <source>&amp;Open downloaded file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="879"/>
+        <location filename="mainwindow.cpp" line="881"/>
         <source>Open &amp;target folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="881"/>
+        <location filename="mainwindow.cpp" line="883"/>
         <source>&amp;Pause download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="882"/>
+        <location filename="mainwindow.cpp" line="884"/>
         <source>&amp;Restart download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="883"/>
+        <location filename="mainwindow.cpp" line="885"/>
         <source>&amp;Cancel download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="885"/>
+        <location filename="mainwindow.cpp" line="887"/>
         <source>Copy &amp;video link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="886"/>
+        <location filename="mainwindow.cpp" line="888"/>
         <source>Open video link in &amp;browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="891"/>
+        <location filename="mainwindow.cpp" line="893"/>
         <source>Resume download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="900"/>
+        <location filename="mainwindow.cpp" line="902"/>
         <source>Show in &amp;Finder</source>
         <translation type="unfinished"></translation>
     </message>
@@ -217,383 +217,388 @@
         <translation>ClipGrab - Download en Converteer Online Videos</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="152"/>
+        <location filename="mainwindow.ui" line="136"/>
         <source>Search</source>
         <translation>Zoeken</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="171"/>
+        <location filename="mainwindow.ui" line="155"/>
         <source>Enter keywords in the box below in order to search videos on YouTube</source>
         <translation>Enter een zoekwoord in de kolom om te zoeken naar videos op YouTube</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="179"/>
+        <location filename="mainwindow.ui" line="163"/>
         <source>about:blank</source>
         <translation>about:blank</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="188"/>
+        <location filename="mainwindow.ui" line="172"/>
         <source>Downloads</source>
         <translation>Downloads</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="197"/>
+        <location filename="mainwindow.ui" line="370"/>
         <source>Grab this clip!</source>
         <translation>Download deze video!</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="226"/>
+        <location filename="mainwindow.ui" line="203"/>
         <source>Quality:</source>
         <translation>Kwaliteit:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="242"/>
+        <location filename="mainwindow.ui" line="216"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>Plak A.U.B. de link naar de video die u wilt downloaden in de kolom hierbeneden.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="277"/>
+        <location filename="mainwindow.ui" line="251"/>
         <source>Format:</source>
         <translation>Formaat:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="316"/>
+        <location filename="mainwindow.ui" line="290"/>
         <source>Current Downloads:</source>
         <translation>Op dit moment aan het downloaden:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="326"/>
+        <location filename="mainwindow.ui" line="300"/>
         <source>Cancel selected download</source>
         <translation>Verwijder geselecteerde download</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="336"/>
+        <location filename="mainwindow.ui" line="310"/>
         <source>Open the target folder of the selected download</source>
         <translation>Open folder voor de geselecteerde download</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="356"/>
+        <location filename="mainwindow.ui" line="330"/>
         <source>Portal</source>
         <translation>Portaal</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="361"/>
+        <location filename="mainwindow.ui" line="335"/>
         <source>Title</source>
         <translation>Titel</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="366"/>
+        <location filename="mainwindow.ui" line="340"/>
         <source>Format</source>
         <translation>Formaat</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="371"/>
+        <location filename="mainwindow.ui" line="345"/>
         <source>Progress</source>
         <translation>Vooruitgang</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="382"/>
+        <location filename="mainwindow.ui" line="356"/>
         <source>Pause selected download</source>
         <translation>Pauzeer geselecteerde download</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="394"/>
+        <location filename="mainwindow.ui" line="389"/>
+        <source>…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="397"/>
         <source>Settings</source>
         <translation>Opties</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="407"/>
+        <location filename="mainwindow.ui" line="410"/>
         <source>General</source>
         <translation>Belangrijke</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="431"/>
+        <location filename="mainwindow.ui" line="434"/>
         <source>Here you can adjust some general settings concerning the behaviour of ClipGrab.</source>
         <translation>Hier kunt u belangrijke opties over hoe ClipGrab zich gedraagt.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="442"/>
+        <location filename="mainwindow.ui" line="445"/>
         <source>Target Path</source>
         <translation>Bestand adres</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="448"/>
+        <location filename="mainwindow.ui" line="451"/>
         <source>Always save at the last used path.</source>
         <translation>Sla altijd de laatste gebruikte bestand adres op.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="462"/>
+        <location filename="mainwindow.ui" line="465"/>
         <source>Here you can configure where the downloaded videos are to be saved.</source>
         <translation>Hier kunt u instellen waar de videos worden opgeslagen.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="469"/>
+        <location filename="mainwindow.ui" line="472"/>
         <source>Browse ...</source>
         <translation>Zoeken ...</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="476"/>
+        <location filename="mainwindow.ui" line="479"/>
         <source>Never ask for file name</source>
         <translation>Nooit vragen voor bestand naam</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="497"/>
+        <location filename="mainwindow.ui" line="500"/>
         <source>Metadata</source>
         <translation>Metadata</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="503"/>
+        <location filename="mainwindow.ui" line="506"/>
         <source>Here you can configure if ClipGrab is supposed to add metadata (ID3 tags) to your mp3 files.</source>
         <translation>Hier kunt u instellen of ClipGrab &quot;metadata&quot; (ID3-tags) moet toevoegen aan uw MP3 bestanden.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="510"/>
+        <location filename="mainwindow.ui" line="513"/>
         <source>Use metadata</source>
         <translation>Gebruik metadata</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="531"/>
+        <location filename="mainwindow.ui" line="534"/>
         <source>Clipboard</source>
         <translation>Klembord</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="537"/>
+        <location filename="mainwindow.ui" line="540"/>
         <source>Here you can configure how ClipGrab behaves when a downloadable video is discovered in your clipboard.</source>
         <translation>Hier kunt u instellen hoe ClipGrab zich gedraagt waarneer een video adres is ontdekt in uw klembord.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="544"/>
+        <location filename="mainwindow.ui" line="547"/>
         <source>Always download</source>
         <translation>Altijd downloaden</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="551"/>
+        <location filename="mainwindow.ui" line="554"/>
         <source>Never download</source>
         <translation>Nooit downloaden</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="558"/>
+        <location filename="mainwindow.ui" line="561"/>
         <source>Always ask</source>
         <translation>Altijd vragen</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="579"/>
+        <location filename="mainwindow.ui" line="582"/>
         <source>Notifications</source>
         <translation>Meldingen in het systeemvak</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="585"/>
+        <location filename="mainwindow.ui" line="588"/>
         <source>After each download</source>
         <translation>Na elke download</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="592"/>
+        <location filename="mainwindow.ui" line="595"/>
         <source>After all downloads have been completed</source>
         <translation>Nadat alle downloads klaar zijn</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="612"/>
+        <location filename="mainwindow.ui" line="615"/>
         <source>Here you can configure when ClipGrab is supposed to display notifications.</source>
         <translation>Hier kunt u instellen waarneer ClipGrab meldingen moet laten zien.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="619"/>
+        <location filename="mainwindow.ui" line="622"/>
         <source>Never</source>
         <translation>Nooit</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="627"/>
+        <location filename="mainwindow.ui" line="630"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="633"/>
+        <location filename="mainwindow.ui" line="636"/>
         <source>Use a proxy server</source>
         <translation>Gebruik nooit een proxy server</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="643"/>
+        <location filename="mainwindow.ui" line="646"/>
         <source>Proxy settings</source>
         <translation>Proxy opties</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="652"/>
+        <location filename="mainwindow.ui" line="655"/>
         <source>Hostname/IP:</source>
         <translation>Hostnaam/IP:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="659"/>
+        <location filename="mainwindow.ui" line="662"/>
         <source>Port:</source>
         <translation>Poort:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="686"/>
+        <location filename="mainwindow.ui" line="689"/>
         <source>Proxy type:</source>
         <translation>Proxy type:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="694"/>
+        <location filename="mainwindow.ui" line="697"/>
         <source>HTTP Proxy</source>
         <translation>HTTP Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="699"/>
+        <location filename="mainwindow.ui" line="702"/>
         <source>Socks5 Proxy</source>
         <translation>Socks5 Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="726"/>
+        <location filename="mainwindow.ui" line="729"/>
         <source>Proxy authentication</source>
         <translation>Proxy authenficatie</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="732"/>
+        <location filename="mainwindow.ui" line="735"/>
         <source>Username:</source>
         <translation>Gebruikersnaam:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="749"/>
+        <location filename="mainwindow.ui" line="752"/>
         <source>Password:</source>
         <translation>Wachtwoord:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="762"/>
+        <location filename="mainwindow.ui" line="765"/>
         <source>Proxy requires authentication</source>
         <translation>Proxy heeft authenticatie nodig</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="770"/>
+        <location filename="mainwindow.ui" line="773"/>
         <source>Other</source>
         <translation>Anders</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="797"/>
+        <location filename="mainwindow.ui" line="800"/>
         <source>Remove finished downloads from list</source>
         <translation>Verwijder gedownloade videos van de lijst</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="776"/>
+        <location filename="mainwindow.ui" line="779"/>
         <source>Minimize ClipGrab to the system tray</source>
         <translation>Minimaliseer ClipGrab naar het systeemvak</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="783"/>
+        <location filename="mainwindow.ui" line="786"/>
         <source>Use WebM if possible</source>
         <translation>Gebruik WebM als mogelijk is</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="790"/>
+        <location filename="mainwindow.ui" line="793"/>
         <source>Ignore SSL errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="817"/>
+        <location filename="mainwindow.ui" line="820"/>
         <source>Remember logins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="824"/>
+        <location filename="mainwindow.ui" line="827"/>
         <source>Remember video quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="836"/>
+        <location filename="mainwindow.ui" line="839"/>
         <source>Language</source>
         <translation>Taal</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="860"/>
+        <location filename="mainwindow.ui" line="863"/>
         <source>Here you can change the language of ClipGrab.</source>
         <translation>Hier kunt u de taal voor ClipGrab wijzigen.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="867"/>
+        <location filename="mainwindow.ui" line="870"/>
         <source>Please select a language from the list below. You have to restart ClipGrab in order to apply you selection.</source>
         <translation>Selecteer A.U.B. een taal van de lijst beneden. U moet ClipGrab herstaren om de taal te activeren.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="904"/>
+        <location filename="mainwindow.ui" line="907"/>
         <source>Conversion</source>
         <translation>Converteren</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="927"/>
+        <location filename="mainwindow.ui" line="930"/>
         <source>Experts can create custom presets for the video conversion here.</source>
         <translation>Experts kunnen aangepaste opties creëren voor het converteren van de video hier.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="934"/>
+        <location filename="mainwindow.ui" line="937"/>
         <source>Format preset</source>
         <translation>Ingestelde formaat</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="944"/>
+        <location filename="mainwindow.ui" line="947"/>
         <source>Add new preset</source>
         <translation>Voeg een nieuw formaat toe</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="951"/>
+        <location filename="mainwindow.ui" line="954"/>
         <source>Remove selected preset</source>
         <translation>Verwijder geselcteerde voorafingesteld</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="974"/>
+        <location filename="mainwindow.ui" line="977"/>
         <source>Audio</source>
         <translation>Geluid</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="986"/>
-        <location filename="mainwindow.ui" line="1038"/>
+        <location filename="mainwindow.ui" line="989"/>
+        <location filename="mainwindow.ui" line="1041"/>
         <source>Codec</source>
         <translation>Code</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1012"/>
-        <location filename="mainwindow.ui" line="1100"/>
+        <location filename="mainwindow.ui" line="1015"/>
+        <location filename="mainwindow.ui" line="1103"/>
         <source>Bitrate (kb/s)</source>
         <translation>Bitrate (kb/s)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1019"/>
+        <location filename="mainwindow.ui" line="1022"/>
         <source>Disable Audio</source>
         <translation>Geluid uitschakelen</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1029"/>
+        <location filename="mainwindow.ui" line="1032"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1051"/>
+        <location filename="mainwindow.ui" line="1054"/>
         <source>Frames/second</source>
         <translation>Frames/seconde</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1110"/>
+        <location filename="mainwindow.ui" line="1113"/>
         <source>Disable video</source>
         <translation>Verwijder video</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1125"/>
+        <location filename="mainwindow.ui" line="1128"/>
         <source>About</source>
         <translation>Over</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1131"/>
+        <location filename="mainwindow.ui" line="1134"/>
         <source>&lt;h2&gt;Support ClipGrab!&lt;/h2&gt;
 &lt;p&gt;Only with your support, ClipGrab can remain free software!&lt;br&gt;So if you like ClipGrab and also want to help ensuring its further development, please consider making a donation.&lt;/p&gt;</source>
         <translation type="unfinished">&lt;h2&gt;Help ClipGrab!&lt;/h2&gt;
 &lt;p&gt;Alleen met uw help, kan ClipGrab gratis blijven!&lt;br&gt;Dus als u GlipGrab leuk vind en ook ons wilt helpen tijdens het ontwikkelen, overweeg dan om een donatie te maken.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1174"/>
+        <location filename="mainwindow.ui" line="1177"/>
         <source>&lt;h2&gt;Translation&lt;/h2&gt;
 ClipGrab is already available in many languages. If ClipGrab has not been translated into your language yet and if you want to contribute a translation, please check &lt;a href=&quot;http://clipgrab.de/translate&quot;&gt;http://clipgrab.de/translate&lt;/a&gt; for further information.</source>
         <translation>&lt;h2&gt;Vertaling&lt;/h2&gt;
 ClipGrab is al verkrijgbaar in verschillende talen. Als ClipGrab nog niet is vertaald in uw taal en als u mee wilt helpen aan een vertaling, check dan &lt;a  hreh=&quot;http://clipgrab.de/translate&quot;&gt;http://clipgrab.de/translate&lt;/a&gt; voor meer informatie.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1191"/>
+        <location filename="mainwindow.ui" line="1194"/>
         <source>&lt;h2&gt;Thanks&lt;/h2&gt;
 ClipGrab relies on the work of the Qt project and the ffmpeg team.&lt;br&gt;
 Visit &lt;a href=&quot;http://qt-project.org&quot;&gt;qt-project.org&lt;/a&gt; and &lt;a href=&quot;http://ffmpeg.org&quot;&gt;ffmpeg.org&lt;/a&gt; for further information.</source>
@@ -783,35 +788,73 @@ U kunt niet 1080p videos van YouTube downloaden.</translation>
     </message>
 </context>
 <context>
+    <name>playlistDialog</name>
+    <message>
+        <location filename="playlist_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="35"/>
+        <source>Grab those clips!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="58"/>
+        <source>Here you can set up the download of multiple videos at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="65"/>
+        <source>Select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="72"/>
+        <source>Add link to list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="79"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="89"/>
+        <source>Deselect all</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>video</name>
     <message>
-        <location filename="video.cpp" line="157"/>
-        <location filename="video.cpp" line="303"/>
+        <location filename="video.cpp" line="159"/>
+        <location filename="video.cpp" line="305"/>
         <source>Converting ...</source>
         <translation>Converteren:...</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="198"/>
+        <location filename="video.cpp" line="200"/>
         <source>Downloading ...</source>
         <translation>Downloaden:...</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="198"/>
+        <location filename="video.cpp" line="200"/>
         <source> MiB</source>
         <translation>MiB</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="368"/>
+        <location filename="video.cpp" line="370"/>
         <source>Finished</source>
         <translation>Klaar</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="374"/>
+        <location filename="video.cpp" line="376"/>
         <source>Finished!</source>
         <translation>Klaar!</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="513"/>
+        <location filename="video.cpp" line="515"/>
         <source>Cancelled</source>
         <translation type="unfinished"></translation>
     </message>
@@ -864,7 +907,7 @@ U kunt niet 1080p videos van YouTube downloaden.</translation>
     <message>
         <location filename="video_facebook.cpp" line="111"/>
         <location filename="video_facebook.cpp" line="112"/>
-        <location filename="video_facebook.cpp" line="140"/>
+        <location filename="video_facebook.cpp" line="141"/>
         <source>HD</source>
         <translation type="unfinished">HD</translation>
     </message>
@@ -924,40 +967,40 @@ U kunt niet 1080p videos van YouTube downloaden.</translation>
 <context>
     <name>video_youtube</name>
     <message>
-        <location filename="video_youtube.cpp" line="150"/>
+        <location filename="video_youtube.cpp" line="152"/>
         <source>HD (1080p)</source>
         <translation type="unfinished">HD (1080p)</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="154"/>
+        <location filename="video_youtube.cpp" line="156"/>
         <source>HD (1440p)</source>
         <translation type="unfinished">HD (720p_ {1440p?}</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="158"/>
+        <location filename="video_youtube.cpp" line="160"/>
         <source>4K (2160p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="162"/>
+        <location filename="video_youtube.cpp" line="164"/>
         <source>5K (2880p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="166"/>
+        <location filename="video_youtube.cpp" line="168"/>
         <source>8K (4320p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="469"/>
-        <location filename="video_youtube.cpp" line="500"/>
-        <location filename="video_youtube.cpp" line="596"/>
-        <location filename="video_youtube.cpp" line="599"/>
+        <location filename="video_youtube.cpp" line="498"/>
+        <location filename="video_youtube.cpp" line="529"/>
+        <location filename="video_youtube.cpp" line="625"/>
+        <location filename="video_youtube.cpp" line="628"/>
         <source>Original</source>
         <translation type="unfinished">Orgineel</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="652"/>
+        <location filename="video_youtube.cpp" line="681"/>
         <source>normal</source>
         <translation>normaal</translation>
     </message>

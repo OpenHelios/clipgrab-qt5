@@ -135,8 +135,9 @@ void video_facebook::parseVideo(QString data)
         {
             continue;
         }
-        videoQuality newQuality = videoQuality(quality, expression.cap(1));
-        newQuality.containerName = "mp4";
+        QString videoLink = expression.cap(1).replace("\\/", "/");
+        videoQuality newQuality = videoQuality(quality, videoLink);
+        newQuality.containerName = ".mp4";
         if  (newQuality.quality == tr("HD"))
         {
             newQuality.resolution = 720;

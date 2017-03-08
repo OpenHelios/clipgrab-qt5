@@ -99,8 +99,16 @@ ClipGrab::ClipGrab()
     newLang.code = "ro";
     languages.append(newLang);
 
+    newLang.name = QString::fromLocal8Bit("Slovenščina");
+    newLang.code = "si";
+    languages.append(newLang);
+
     newLang.name = "Suomi";
     newLang.code = "fi";
+    languages.append(newLang);
+
+    newLang.name = "Svenska";
+    newLang.code = "sv";
     languages.append(newLang);
 
     newLang.name = QString::fromLocal8Bit("Türkçe");

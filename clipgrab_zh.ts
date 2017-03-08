@@ -10,22 +10,22 @@
         <translation>自动识别语言</translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="469"/>
+        <location filename="clipgrab.cpp" line="486"/>
         <source>Downloading update … %1/%2 MBytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="478"/>
+        <location filename="clipgrab.cpp" line="495"/>
         <source>There was an error while downloading the update.: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="492"/>
+        <location filename="clipgrab.cpp" line="509"/>
         <source>The fingerprint of the downloaded update file could not be verified: %1 should have been %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="504"/>
+        <location filename="clipgrab.cpp" line="521"/>
         <source>Could not open update file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -82,153 +82,153 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="mainwindow.cpp" line="247"/>
-        <location filename="mainwindow.cpp" line="259"/>
+        <location filename="mainwindow.cpp" line="249"/>
+        <location filename="mainwindow.cpp" line="261"/>
         <source>Select Target</source>
         <translation type="unfinished">选择目标</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="329"/>
+        <location filename="mainwindow.cpp" line="331"/>
         <source>Please wait while ClipGrab is loading information about the video ...</source>
         <translation>ClipGrab正在索取视频信息，请稍后……</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="346"/>
+        <location filename="mainwindow.cpp" line="348"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>请在下框中输入需要下载的视频链接。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="351"/>
+        <location filename="mainwindow.cpp" line="353"/>
         <source>The link you have entered seems to not be recognised by any of the supported portals.&lt;br/&gt;Now ClipGrab will check if it can download a video from that site anyway.</source>
         <translatorcomment>&quot;by any of the supported portals&quot; omitted</translatorcomment>
         <translation>该链接似乎无法被识别。ClipGrab现在仍将继续尝试从该网站下载。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="398"/>
+        <location filename="mainwindow.cpp" line="400"/>
         <source>No downloadable video could be found.&lt;br /&gt;Maybe you have entered the wrong link or there is a problem with your connection.</source>
         <translation>没有找到可下载的视频。请检查您提供的地址是否正确或者网络链接是否通畅。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="411"/>
+        <location filename="mainwindow.cpp" line="413"/>
         <source>ClipGrab - Select target path</source>
         <translation>ClipGrab-指定目标路径</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="458"/>
+        <location filename="mainwindow.cpp" line="460"/>
         <source>ClipGrab: Video discovered in your clipboard</source>
         <translation>在粘贴板中检测到视频文件……</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="458"/>
+        <location filename="mainwindow.cpp" line="460"/>
         <source>ClipGrab has discovered the address of a compatible video in your clipboard. Click on this message to download it now.</source>
         <translation>Clipgrab在您的黏贴板中找到一个可以被下载的视频链接。点击此信息来下载它。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="566"/>
         <source>ClipGrab - Exit confirmation</source>
         <translatorcomment>&quot;Do you really want to exit?&quot;</translatorcomment>
         <translation>ClipGrab-确认退出吗？</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="566"/>
         <source>There is still at least one download in progress.&lt;br /&gt;If you exit the program now, all downloads will be canceled and cannot be recovered later.&lt;br /&gt;Do you really want to quit ClipGrab now?</source>
         <translation>目前仍有下载正在进行。&lt;br./&gt;如果您现在退出程序，所有正在进行的下载都将被取消（不支持断点续传）。&lt;br./&gt;您确实要现在退出吗？</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="601"/>
+        <location filename="mainwindow.cpp" line="603"/>
         <source>Download finished</source>
         <translation>下载完成</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="601"/>
+        <location filename="mainwindow.cpp" line="603"/>
         <source>Downloading and converting “%title” is now finished.</source>
         <translatorcomment>I didn&apos;t translate &quot;title&quot;. Is it part of the code?</translatorcomment>
         <translation>正在下载与转换中 已完成&quot;%title&quot;。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="mainwindow.cpp" line="607"/>
         <source>All downloads finished</source>
         <translation>所有下载已经全部完成</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="mainwindow.cpp" line="607"/>
         <source>ClipGrab has finished downloading and converting all selected videos.</source>
         <translation>ClipGrab已经完成所有的下载和转码工作。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="670"/>
         <location filename="mainwindow.cpp" line="672"/>
-        <location filename="mainwindow.cpp" line="679"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <location filename="mainwindow.cpp" line="681"/>
+        <location filename="mainwindow.cpp" line="683"/>
         <source>ClipGrab</source>
         <translatorcomment>Let me know if you want me to think of a Chinese name for you.</translatorcomment>
         <translation>ClipGrab</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="670"/>
         <location filename="mainwindow.cpp" line="672"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <source> MiB</source>
         <translatorcomment>In China we use &quot;MB&quot; more often.</translatorcomment>
         <translation>MB</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="672"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <source> KiB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="679"/>
         <location filename="mainwindow.cpp" line="681"/>
+        <location filename="mainwindow.cpp" line="683"/>
         <source>Currently no downloads in progress.</source>
         <translation>目前没有正在进行中的下载。</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="682"/>
+        <location filename="mainwindow.cpp" line="684"/>
         <source>ClipGrab - Download and Convert Online Videos</source>
         <translation>Clipgrab - 下载并转码在线视频</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="878"/>
+        <location filename="mainwindow.cpp" line="880"/>
         <source>&amp;Open downloaded file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="879"/>
+        <location filename="mainwindow.cpp" line="881"/>
         <source>Open &amp;target folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="881"/>
+        <location filename="mainwindow.cpp" line="883"/>
         <source>&amp;Pause download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="882"/>
+        <location filename="mainwindow.cpp" line="884"/>
         <source>&amp;Restart download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="883"/>
+        <location filename="mainwindow.cpp" line="885"/>
         <source>&amp;Cancel download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="885"/>
+        <location filename="mainwindow.cpp" line="887"/>
         <source>Copy &amp;video link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="886"/>
+        <location filename="mainwindow.cpp" line="888"/>
         <source>Open video link in &amp;browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="891"/>
+        <location filename="mainwindow.cpp" line="893"/>
         <source>Resume download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="900"/>
+        <location filename="mainwindow.cpp" line="902"/>
         <source>Show in &amp;Finder</source>
         <translation type="unfinished"></translation>
     </message>
@@ -241,390 +241,395 @@ p, li { white-space: pre-wrap; }
         <translation>Clipgrab - 下载并转码在线视频</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="152"/>
+        <location filename="mainwindow.ui" line="136"/>
         <source>Search</source>
         <translation>搜索</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="171"/>
+        <location filename="mainwindow.ui" line="155"/>
         <source>Enter keywords in the box below in order to search videos on YouTube</source>
         <translatorcomment>Search in Youtube: please enter the keywords below</translatorcomment>
         <translation>Youtube搜索：请在下面输入关键词</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="179"/>
+        <location filename="mainwindow.ui" line="163"/>
         <source>about:blank</source>
         <translatorcomment>Not sure if this should be translated or not.</translatorcomment>
         <translation></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="188"/>
+        <location filename="mainwindow.ui" line="172"/>
         <source>Downloads</source>
         <translation>下载</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="197"/>
+        <location filename="mainwindow.ui" line="370"/>
         <source>Grab this clip!</source>
         <translation>获取这个视频！</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="226"/>
+        <location filename="mainwindow.ui" line="203"/>
         <source>Quality:</source>
         <translatorcomment>resolution</translatorcomment>
         <translation>视频分辨率：</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="242"/>
+        <location filename="mainwindow.ui" line="216"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>请在下框中输入需要下载的视频链接。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="277"/>
+        <location filename="mainwindow.ui" line="251"/>
         <source>Format:</source>
         <translation>格式：</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="316"/>
+        <location filename="mainwindow.ui" line="290"/>
         <source>Current Downloads:</source>
         <translation>目前正在进行的下载：</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="326"/>
+        <location filename="mainwindow.ui" line="300"/>
         <source>Cancel selected download</source>
         <translation>取消所选的下载对象</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="336"/>
+        <location filename="mainwindow.ui" line="310"/>
         <source>Open the target folder of the selected download</source>
         <translation>打开视频被存放的文件夹</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="356"/>
+        <location filename="mainwindow.ui" line="330"/>
         <source>Portal</source>
         <translatorcomment>Not sure if my translation is correct</translatorcomment>
         <translation>门户</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="361"/>
+        <location filename="mainwindow.ui" line="335"/>
         <source>Title</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="366"/>
+        <location filename="mainwindow.ui" line="340"/>
         <source>Format</source>
         <translation>格式</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="371"/>
+        <location filename="mainwindow.ui" line="345"/>
         <source>Progress</source>
         <translation>进度</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="382"/>
+        <location filename="mainwindow.ui" line="356"/>
         <source>Pause selected download</source>
         <translation>暂停所选中的下载</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="394"/>
+        <location filename="mainwindow.ui" line="389"/>
+        <source>…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="397"/>
         <source>Settings</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="407"/>
+        <location filename="mainwindow.ui" line="410"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="431"/>
+        <location filename="mainwindow.ui" line="434"/>
         <source>Here you can adjust some general settings concerning the behaviour of ClipGrab.</source>
         <translation>这里你可以调整一些ClipGrab的综合选项。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="442"/>
+        <location filename="mainwindow.ui" line="445"/>
         <source>Target Path</source>
         <translation>目标路径</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="448"/>
+        <location filename="mainwindow.ui" line="451"/>
         <source>Always save at the last used path.</source>
         <translation>永远保存在上次使用过的位置。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="462"/>
+        <location filename="mainwindow.ui" line="465"/>
         <source>Here you can configure where the downloaded videos are to be saved.</source>
         <translation>这里你可以调整下载目标的存放文件夹。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="469"/>
+        <location filename="mainwindow.ui" line="472"/>
         <source>Browse ...</source>
         <translation>打开……</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="476"/>
+        <location filename="mainwindow.ui" line="479"/>
         <source>Never ask for file name</source>
         <translatorcomment>Never ask for file renaming</translatorcomment>
         <translation>永远不请求给文件重新命名</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="497"/>
+        <location filename="mainwindow.ui" line="500"/>
         <source>Metadata</source>
         <translation>元数据</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="503"/>
+        <location filename="mainwindow.ui" line="506"/>
         <source>Here you can configure if ClipGrab is supposed to add metadata (ID3 tags) to your mp3 files.</source>
         <translation>这里你可以选择ClipGrab是否自动为你的mp3文件添加元数据（ID3标签）。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="510"/>
+        <location filename="mainwindow.ui" line="513"/>
         <source>Use metadata</source>
         <translation>使用元数据</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="531"/>
+        <location filename="mainwindow.ui" line="534"/>
         <source>Clipboard</source>
         <translation>黏贴板</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="537"/>
+        <location filename="mainwindow.ui" line="540"/>
         <source>Here you can configure how ClipGrab behaves when a downloadable video is discovered in your clipboard.</source>
         <translation>这里你可以调整ClipGrab对黏贴板的监控模式。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="544"/>
+        <location filename="mainwindow.ui" line="547"/>
         <source>Always download</source>
         <translation>下载所有</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="551"/>
+        <location filename="mainwindow.ui" line="554"/>
         <source>Never download</source>
         <translation>全不下载</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="558"/>
+        <location filename="mainwindow.ui" line="561"/>
         <source>Always ask</source>
         <translation>始终请求用户意见</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="579"/>
+        <location filename="mainwindow.ui" line="582"/>
         <source>Notifications</source>
         <translation>提示信息</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="585"/>
+        <location filename="mainwindow.ui" line="588"/>
         <source>After each download</source>
         <translation>在每个下载后</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="592"/>
+        <location filename="mainwindow.ui" line="595"/>
         <source>After all downloads have been completed</source>
         <translation>在所有下载都结束之后</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="612"/>
+        <location filename="mainwindow.ui" line="615"/>
         <source>Here you can configure when ClipGrab is supposed to display notifications.</source>
         <translation>这里你可以设这ClipGrab提示信息的显示时机。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="619"/>
+        <location filename="mainwindow.ui" line="622"/>
         <source>Never</source>
         <translation>永不</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="627"/>
+        <location filename="mainwindow.ui" line="630"/>
         <source>Proxy</source>
         <translation>代理</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="633"/>
+        <location filename="mainwindow.ui" line="636"/>
         <source>Use a proxy server</source>
         <translation>使用一个代理服务器</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="643"/>
+        <location filename="mainwindow.ui" line="646"/>
         <source>Proxy settings</source>
         <translation>代理服务器设置</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="652"/>
+        <location filename="mainwindow.ui" line="655"/>
         <source>Hostname/IP:</source>
         <translation>主机/IP地址：</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="659"/>
+        <location filename="mainwindow.ui" line="662"/>
         <source>Port:</source>
         <translation>端口：</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="686"/>
+        <location filename="mainwindow.ui" line="689"/>
         <source>Proxy type:</source>
         <translation>代理方式：</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="694"/>
+        <location filename="mainwindow.ui" line="697"/>
         <source>HTTP Proxy</source>
         <translation>HTTP代理</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="699"/>
+        <location filename="mainwindow.ui" line="702"/>
         <source>Socks5 Proxy</source>
         <translation>Socks5代理</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="726"/>
+        <location filename="mainwindow.ui" line="729"/>
         <source>Proxy authentication</source>
         <translation>代理验证信息</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="732"/>
+        <location filename="mainwindow.ui" line="735"/>
         <source>Username:</source>
         <translation>用户名：</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="749"/>
+        <location filename="mainwindow.ui" line="752"/>
         <source>Password:</source>
         <translation>密码：</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="762"/>
+        <location filename="mainwindow.ui" line="765"/>
         <source>Proxy requires authentication</source>
         <translation>代理需要验证信息</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="770"/>
+        <location filename="mainwindow.ui" line="773"/>
         <source>Other</source>
         <translation>其他</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="797"/>
+        <location filename="mainwindow.ui" line="800"/>
         <source>Remove finished downloads from list</source>
         <translation>去除列表中所有已经完成得下载</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="776"/>
+        <location filename="mainwindow.ui" line="779"/>
         <source>Minimize ClipGrab to the system tray</source>
         <translation>隐藏ClipGrab到状态栏</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="783"/>
+        <location filename="mainwindow.ui" line="786"/>
         <source>Use WebM if possible</source>
         <translatorcomment>Not sure what WebM really is</translatorcomment>
         <translation>尽可能使用WebM</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="790"/>
+        <location filename="mainwindow.ui" line="793"/>
         <source>Ignore SSL errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="817"/>
+        <location filename="mainwindow.ui" line="820"/>
         <source>Remember logins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="824"/>
+        <location filename="mainwindow.ui" line="827"/>
         <source>Remember video quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="836"/>
+        <location filename="mainwindow.ui" line="839"/>
         <source>Language</source>
         <translation>语言</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="860"/>
+        <location filename="mainwindow.ui" line="863"/>
         <source>Here you can change the language of ClipGrab.</source>
         <translation>这里你可以更换ClipGrab的语言。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="867"/>
+        <location filename="mainwindow.ui" line="870"/>
         <source>Please select a language from the list below. You have to restart ClipGrab in order to apply you selection.</source>
         <translatorcomment>Second part: changes in the language will apply starting from the next time the program is started.</translatorcomment>
         <translation>请在下表中选择合适的语言。语言调整会在下一次程序启动时更新。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="904"/>
+        <location filename="mainwindow.ui" line="907"/>
         <source>Conversion</source>
         <translation>转码</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="927"/>
+        <location filename="mainwindow.ui" line="930"/>
         <source>Experts can create custom presets for the video conversion here.</source>
         <translation>专业用户可以在这里创建视频转码的个性化设定。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="934"/>
+        <location filename="mainwindow.ui" line="937"/>
         <source>Format preset</source>
         <translation>格式设定</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="944"/>
+        <location filename="mainwindow.ui" line="947"/>
         <source>Add new preset</source>
         <translation>添加新的设定</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="951"/>
+        <location filename="mainwindow.ui" line="954"/>
         <source>Remove selected preset</source>
         <translation>去除选中的设定</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="974"/>
+        <location filename="mainwindow.ui" line="977"/>
         <source>Audio</source>
         <translation>音频</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="986"/>
-        <location filename="mainwindow.ui" line="1038"/>
+        <location filename="mainwindow.ui" line="989"/>
+        <location filename="mainwindow.ui" line="1041"/>
         <source>Codec</source>
         <translation>解码器</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1012"/>
-        <location filename="mainwindow.ui" line="1100"/>
+        <location filename="mainwindow.ui" line="1015"/>
+        <location filename="mainwindow.ui" line="1103"/>
         <source>Bitrate (kb/s)</source>
         <translation>比特率(kb/s)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1019"/>
+        <location filename="mainwindow.ui" line="1022"/>
         <source>Disable Audio</source>
         <translation>禁用音频</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1029"/>
+        <location filename="mainwindow.ui" line="1032"/>
         <source>Video</source>
         <translation>视频</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1051"/>
+        <location filename="mainwindow.ui" line="1054"/>
         <source>Frames/second</source>
         <translation>每秒帧数</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1110"/>
+        <location filename="mainwindow.ui" line="1113"/>
         <source>Disable video</source>
         <translation>禁用视频</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1125"/>
+        <location filename="mainwindow.ui" line="1128"/>
         <source>About</source>
         <translation>关于我们</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1131"/>
+        <location filename="mainwindow.ui" line="1134"/>
         <source>&lt;h2&gt;Support ClipGrab!&lt;/h2&gt;
 &lt;p&gt;Only with your support, ClipGrab can remain free software!&lt;br&gt;So if you like ClipGrab and also want to help ensuring its further development, please consider making a donation.&lt;/p&gt;</source>
         <translation>&lt;h2&gt;请支持ClipGrab！&lt;/h2&gt;
 &lt;p&gt;只有在您的支持下，ClipGrab才能继续为大家提供免费服务。&lt;br&gt;因此如果您喜欢ClipGrab，并且希望它能够继续向前发展，请为我们捐款。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1174"/>
+        <location filename="mainwindow.ui" line="1177"/>
         <source>&lt;h2&gt;Translation&lt;/h2&gt;
 ClipGrab is already available in many languages. If ClipGrab has not been translated into your language yet and if you want to contribute a translation, please check &lt;a href=&quot;http://clipgrab.de/translate&quot;&gt;http://clipgrab.de/translate&lt;/a&gt; for further information.</source>
         <translation>&lt;h2&gt;翻译&lt;/h2&gt;
 ClipGrab目前已经支持躲过语言。如果ClipGrab目前仍不支持您的语言并且您希望做出贡献，请点击&lt;a href=&quot;http://clipgrab.de/translate&quot;&gt;http://clipgrab.de/translate&lt;/a&gt;索取详细信息。</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1191"/>
+        <location filename="mainwindow.ui" line="1194"/>
         <source>&lt;h2&gt;Thanks&lt;/h2&gt;
 ClipGrab relies on the work of the Qt project and the ffmpeg team.&lt;br&gt;
 Visit &lt;a href=&quot;http://qt-project.org&quot;&gt;qt-project.org&lt;/a&gt; and &lt;a href=&quot;http://ffmpeg.org&quot;&gt;ffmpeg.org&lt;/a&gt; for further information.</source>
@@ -792,35 +797,73 @@ Downloading 1080p videos from YouTube is not supported.</source>
     </message>
 </context>
 <context>
+    <name>playlistDialog</name>
+    <message>
+        <location filename="playlist_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="35"/>
+        <source>Grab those clips!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="58"/>
+        <source>Here you can set up the download of multiple videos at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="65"/>
+        <source>Select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="72"/>
+        <source>Add link to list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="79"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="89"/>
+        <source>Deselect all</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>video</name>
     <message>
-        <location filename="video.cpp" line="157"/>
-        <location filename="video.cpp" line="303"/>
+        <location filename="video.cpp" line="159"/>
+        <location filename="video.cpp" line="305"/>
         <source>Converting ...</source>
         <translation>转码中……</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="198"/>
+        <location filename="video.cpp" line="200"/>
         <source>Downloading ...</source>
         <translation>下载中……</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="198"/>
+        <location filename="video.cpp" line="200"/>
         <source> MiB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="368"/>
+        <location filename="video.cpp" line="370"/>
         <source>Finished</source>
         <translation>完成</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="374"/>
+        <location filename="video.cpp" line="376"/>
         <source>Finished!</source>
         <translation>完成！</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="513"/>
+        <location filename="video.cpp" line="515"/>
         <source>Cancelled</source>
         <translation type="unfinished"></translation>
     </message>
@@ -873,7 +916,7 @@ Downloading 1080p videos from YouTube is not supported.</source>
     <message>
         <location filename="video_facebook.cpp" line="111"/>
         <location filename="video_facebook.cpp" line="112"/>
-        <location filename="video_facebook.cpp" line="140"/>
+        <location filename="video_facebook.cpp" line="141"/>
         <source>HD</source>
         <translation type="unfinished">高清</translation>
     </message>
@@ -929,40 +972,40 @@ Downloading 1080p videos from YouTube is not supported.</source>
 <context>
     <name>video_youtube</name>
     <message>
-        <location filename="video_youtube.cpp" line="150"/>
+        <location filename="video_youtube.cpp" line="152"/>
         <source>HD (1080p)</source>
         <translation type="unfinished">高清（1080P）</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="154"/>
+        <location filename="video_youtube.cpp" line="156"/>
         <source>HD (1440p)</source>
         <translation type="unfinished">高清（720P） {1440p?}</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="158"/>
+        <location filename="video_youtube.cpp" line="160"/>
         <source>4K (2160p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="162"/>
+        <location filename="video_youtube.cpp" line="164"/>
         <source>5K (2880p)</source>
         <translation type="unfinished">ghjghj</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="166"/>
+        <location filename="video_youtube.cpp" line="168"/>
         <source>8K (4320p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="469"/>
-        <location filename="video_youtube.cpp" line="500"/>
-        <location filename="video_youtube.cpp" line="596"/>
-        <location filename="video_youtube.cpp" line="599"/>
+        <location filename="video_youtube.cpp" line="498"/>
+        <location filename="video_youtube.cpp" line="529"/>
+        <location filename="video_youtube.cpp" line="625"/>
+        <location filename="video_youtube.cpp" line="628"/>
         <source>Original</source>
         <translation type="unfinished">原始信息</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="652"/>
+        <location filename="video_youtube.cpp" line="681"/>
         <source>normal</source>
         <translation>中等</translation>
     </message>

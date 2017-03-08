@@ -11,22 +11,22 @@
         <translation>Recunoastere automata</translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="469"/>
+        <location filename="clipgrab.cpp" line="486"/>
         <source>Downloading update … %1/%2 MBytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="478"/>
+        <location filename="clipgrab.cpp" line="495"/>
         <source>There was an error while downloading the update.: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="492"/>
+        <location filename="clipgrab.cpp" line="509"/>
         <source>The fingerprint of the downloaded update file could not be verified: %1 should have been %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="504"/>
+        <location filename="clipgrab.cpp" line="521"/>
         <source>Could not open update file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -83,148 +83,148 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="mainwindow.cpp" line="247"/>
-        <location filename="mainwindow.cpp" line="259"/>
+        <location filename="mainwindow.cpp" line="249"/>
+        <location filename="mainwindow.cpp" line="261"/>
         <source>Select Target</source>
         <translation type="unfinished">Alege destinatia</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="329"/>
+        <location filename="mainwindow.cpp" line="331"/>
         <source>Please wait while ClipGrab is loading information about the video ...</source>
         <translation>Asteapta cat ClipGrab incarca informatiile despre videoclip ...</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="346"/>
+        <location filename="mainwindow.cpp" line="348"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>Introdu adresa videoclipului in campul de mai jos.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="351"/>
+        <location filename="mainwindow.cpp" line="353"/>
         <source>The link you have entered seems to not be recognised by any of the supported portals.&lt;br/&gt;Now ClipGrab will check if it can download a video from that site anyway.</source>
         <translation>Adresa introdusa nu pare a fi a unui portal suportat.&lt;br/&gt;Se incearca descarcarea.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="398"/>
+        <location filename="mainwindow.cpp" line="400"/>
         <source>No downloadable video could be found.&lt;br /&gt;Maybe you have entered the wrong link or there is a problem with your connection.</source>
         <translation>Nu a fost descoperit un videoclip suportat..&lt;br /&gt;Verifica adresa introdusa sau conexiunea la internet.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="411"/>
+        <location filename="mainwindow.cpp" line="413"/>
         <source>ClipGrab - Select target path</source>
         <translation>ClipGrab - Alege destinatia</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="458"/>
+        <location filename="mainwindow.cpp" line="460"/>
         <source>ClipGrab: Video discovered in your clipboard</source>
         <translation>ClipGrab: Videoclip detectat in memorie</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="458"/>
+        <location filename="mainwindow.cpp" line="460"/>
         <source>ClipGrab has discovered the address of a compatible video in your clipboard. Click on this message to download it now.</source>
         <translation>ClipGrab a descoperit adresa unui videoclip compatibil copiata in memorie. Da click pe acest mesaj pentru a porni descarcarea.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="566"/>
         <source>ClipGrab - Exit confirmation</source>
         <translation>ClipGrab - Confirmare pentru inchidere</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="566"/>
         <source>There is still at least one download in progress.&lt;br /&gt;If you exit the program now, all downloads will be canceled and cannot be recovered later.&lt;br /&gt;Do you really want to quit ClipGrab now?</source>
         <translation>Descarcare in curs.&lt;br /&gt;Daca inchizi programul acum se va anula descarcarea si nu o vei mai putea relua.&lt;br /&gt;Sigur vrei sa inchizi acum?</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="601"/>
+        <location filename="mainwindow.cpp" line="603"/>
         <source>Download finished</source>
         <translation>Descarcare terminata</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="601"/>
+        <location filename="mainwindow.cpp" line="603"/>
         <source>Downloading and converting “%title” is now finished.</source>
         <translation>“%title” este descarcat si convertit.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="mainwindow.cpp" line="607"/>
         <source>All downloads finished</source>
         <translation>Toate descarcarile au fost terminate</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="mainwindow.cpp" line="607"/>
         <source>ClipGrab has finished downloading and converting all selected videos.</source>
         <translation>ClipGrab a terminat toate descarcarile si conversiile.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="670"/>
         <location filename="mainwindow.cpp" line="672"/>
-        <location filename="mainwindow.cpp" line="679"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <location filename="mainwindow.cpp" line="681"/>
+        <location filename="mainwindow.cpp" line="683"/>
         <source>ClipGrab</source>
         <translation>ClipGrab</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="670"/>
         <location filename="mainwindow.cpp" line="672"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <source> MiB</source>
         <translation> MiB</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="672"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <source> KiB</source>
         <translation> KiB</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="679"/>
         <location filename="mainwindow.cpp" line="681"/>
+        <location filename="mainwindow.cpp" line="683"/>
         <source>Currently no downloads in progress.</source>
         <translation>Nicio descarcare in curs.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="682"/>
+        <location filename="mainwindow.cpp" line="684"/>
         <source>ClipGrab - Download and Convert Online Videos</source>
         <translation>ClipGrab - Descarca si Converteste Videoclipuri Online</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="878"/>
+        <location filename="mainwindow.cpp" line="880"/>
         <source>&amp;Open downloaded file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="879"/>
+        <location filename="mainwindow.cpp" line="881"/>
         <source>Open &amp;target folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="881"/>
+        <location filename="mainwindow.cpp" line="883"/>
         <source>&amp;Pause download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="882"/>
+        <location filename="mainwindow.cpp" line="884"/>
         <source>&amp;Restart download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="883"/>
+        <location filename="mainwindow.cpp" line="885"/>
         <source>&amp;Cancel download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="885"/>
+        <location filename="mainwindow.cpp" line="887"/>
         <source>Copy &amp;video link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="886"/>
+        <location filename="mainwindow.cpp" line="888"/>
         <source>Open video link in &amp;browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="891"/>
+        <location filename="mainwindow.cpp" line="893"/>
         <source>Resume download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="900"/>
+        <location filename="mainwindow.cpp" line="902"/>
         <source>Show in &amp;Finder</source>
         <translation type="unfinished"></translation>
     </message>
@@ -237,377 +237,382 @@ p, li { white-space: pre-wrap; }
         <translation>ClipGrab - Descarca si Converteste Videoclipuri Online</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="152"/>
+        <location filename="mainwindow.ui" line="136"/>
         <source>Search</source>
         <translation>Cautare</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="171"/>
+        <location filename="mainwindow.ui" line="155"/>
         <source>Enter keywords in the box below in order to search videos on YouTube</source>
         <translation>Introdu cuvintele cheie in campul de mai jos pentru a cauta videoclipuri pe YouTube</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="179"/>
+        <location filename="mainwindow.ui" line="163"/>
         <source>about:blank</source>
         <translation>about:blank</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="188"/>
+        <location filename="mainwindow.ui" line="172"/>
         <source>Downloads</source>
         <translation>Descarcari</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="197"/>
+        <location filename="mainwindow.ui" line="370"/>
         <source>Grab this clip!</source>
         <translation>Descarca acest videoclip!</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="226"/>
+        <location filename="mainwindow.ui" line="203"/>
         <source>Quality:</source>
         <translation>Calitate:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="242"/>
+        <location filename="mainwindow.ui" line="216"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>Introdu adresa videoclipului in campul de mai jos.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="277"/>
+        <location filename="mainwindow.ui" line="251"/>
         <source>Format:</source>
         <translation>Format:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="316"/>
+        <location filename="mainwindow.ui" line="290"/>
         <source>Current Downloads:</source>
         <translation>Descarcari in curs:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="326"/>
+        <location filename="mainwindow.ui" line="300"/>
         <source>Cancel selected download</source>
         <translation>Anuleaza descarcarile selectate</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="336"/>
+        <location filename="mainwindow.ui" line="310"/>
         <source>Open the target folder of the selected download</source>
         <translation>Deschide dosarul de destinatie</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="356"/>
+        <location filename="mainwindow.ui" line="330"/>
         <source>Portal</source>
         <translation>Portal</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="361"/>
+        <location filename="mainwindow.ui" line="335"/>
         <source>Title</source>
         <translation>Titlu</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="366"/>
+        <location filename="mainwindow.ui" line="340"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="371"/>
+        <location filename="mainwindow.ui" line="345"/>
         <source>Progress</source>
         <translation>Progres</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="382"/>
+        <location filename="mainwindow.ui" line="356"/>
         <source>Pause selected download</source>
         <translation>Intrerupe descarcarea selectata</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="394"/>
+        <location filename="mainwindow.ui" line="389"/>
+        <source>…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="397"/>
         <source>Settings</source>
         <translation>Setari</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="407"/>
+        <location filename="mainwindow.ui" line="410"/>
         <source>General</source>
         <translation>General</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="431"/>
+        <location filename="mainwindow.ui" line="434"/>
         <source>Here you can adjust some general settings concerning the behaviour of ClipGrab.</source>
         <translation>Aici configurezi comportamentul general ClipGrab.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="442"/>
+        <location filename="mainwindow.ui" line="445"/>
         <source>Target Path</source>
         <translation>Dosarul de destinatie</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="448"/>
+        <location filename="mainwindow.ui" line="451"/>
         <source>Always save at the last used path.</source>
         <translation>Salveaza in ultimul dosar folosit.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="462"/>
+        <location filename="mainwindow.ui" line="465"/>
         <source>Here you can configure where the downloaded videos are to be saved.</source>
         <translation>Aici poti configura dosarul in care se vor salva videoclipurile.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="469"/>
+        <location filename="mainwindow.ui" line="472"/>
         <source>Browse ...</source>
         <translation>Rasfoieste...</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="476"/>
+        <location filename="mainwindow.ui" line="479"/>
         <source>Never ask for file name</source>
         <translation>Nu cere numele fisierului</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="497"/>
+        <location filename="mainwindow.ui" line="500"/>
         <source>Metadata</source>
         <translatorcomment>Detalii</translatorcomment>
         <translation>Metadata</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="503"/>
+        <location filename="mainwindow.ui" line="506"/>
         <source>Here you can configure if ClipGrab is supposed to add metadata (ID3 tags) to your mp3 files.</source>
         <translation>Aici poti configura modul in care ClipGrab va adauga detalii (etichete ID3) fisierelor mp3.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="510"/>
+        <location filename="mainwindow.ui" line="513"/>
         <source>Use metadata</source>
         <translation>Foloseste detalii</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="531"/>
+        <location filename="mainwindow.ui" line="534"/>
         <source>Clipboard</source>
         <translation>Memorie</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="537"/>
+        <location filename="mainwindow.ui" line="540"/>
         <source>Here you can configure how ClipGrab behaves when a downloadable video is discovered in your clipboard.</source>
         <translation>Aici poti configura comportamentul ClipGrab in cazul unui videoclip compatibil detectat in memorie.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="544"/>
+        <location filename="mainwindow.ui" line="547"/>
         <source>Always download</source>
         <translation>Descarca intotdeauna</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="551"/>
+        <location filename="mainwindow.ui" line="554"/>
         <source>Never download</source>
         <translation>Nu descarca</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="558"/>
+        <location filename="mainwindow.ui" line="561"/>
         <source>Always ask</source>
         <translation>Intreaba inainte</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="579"/>
+        <location filename="mainwindow.ui" line="582"/>
         <source>Notifications</source>
         <translation>Notificari</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="585"/>
+        <location filename="mainwindow.ui" line="588"/>
         <source>After each download</source>
         <translation>In urma fiecarei descarcari</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="592"/>
+        <location filename="mainwindow.ui" line="595"/>
         <source>After all downloads have been completed</source>
         <translation>Dupa ce toate descarcarile au fost terminate</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="612"/>
+        <location filename="mainwindow.ui" line="615"/>
         <source>Here you can configure when ClipGrab is supposed to display notifications.</source>
         <translation>Aici poti configura afisarea notificarilor ClipGrab.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="619"/>
+        <location filename="mainwindow.ui" line="622"/>
         <source>Never</source>
         <translation>Niciodata</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="627"/>
+        <location filename="mainwindow.ui" line="630"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="633"/>
+        <location filename="mainwindow.ui" line="636"/>
         <source>Use a proxy server</source>
         <translation>Foloseste un server proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="643"/>
+        <location filename="mainwindow.ui" line="646"/>
         <source>Proxy settings</source>
         <translation>Setari proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="652"/>
+        <location filename="mainwindow.ui" line="655"/>
         <source>Hostname/IP:</source>
         <translation>Nume gazda/IP:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="659"/>
+        <location filename="mainwindow.ui" line="662"/>
         <source>Port:</source>
         <translation>Port:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="686"/>
+        <location filename="mainwindow.ui" line="689"/>
         <source>Proxy type:</source>
         <translation>Tip proxy:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="694"/>
+        <location filename="mainwindow.ui" line="697"/>
         <source>HTTP Proxy</source>
         <translation>HTTP Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="699"/>
+        <location filename="mainwindow.ui" line="702"/>
         <source>Socks5 Proxy</source>
         <translation>Socks5 Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="726"/>
+        <location filename="mainwindow.ui" line="729"/>
         <source>Proxy authentication</source>
         <translation>Autentificare proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="732"/>
+        <location filename="mainwindow.ui" line="735"/>
         <source>Username:</source>
         <translation>Nume utilizator:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="749"/>
+        <location filename="mainwindow.ui" line="752"/>
         <source>Password:</source>
         <translation>Parola:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="762"/>
+        <location filename="mainwindow.ui" line="765"/>
         <source>Proxy requires authentication</source>
         <translation>Proxy solicita autentificare</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="770"/>
+        <location filename="mainwindow.ui" line="773"/>
         <source>Other</source>
         <translation>Setari suplimentare</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="797"/>
+        <location filename="mainwindow.ui" line="800"/>
         <source>Remove finished downloads from list</source>
         <translation>Elimina din lista descarcarile terminate</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="776"/>
+        <location filename="mainwindow.ui" line="779"/>
         <source>Minimize ClipGrab to the system tray</source>
         <translation>Minimizeaza ClipGrab in zona de notificare</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="783"/>
+        <location filename="mainwindow.ui" line="786"/>
         <source>Use WebM if possible</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="790"/>
+        <location filename="mainwindow.ui" line="793"/>
         <source>Ignore SSL errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="817"/>
+        <location filename="mainwindow.ui" line="820"/>
         <source>Remember logins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="824"/>
+        <location filename="mainwindow.ui" line="827"/>
         <source>Remember video quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="836"/>
+        <location filename="mainwindow.ui" line="839"/>
         <source>Language</source>
         <translation>Limba</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="860"/>
+        <location filename="mainwindow.ui" line="863"/>
         <source>Here you can change the language of ClipGrab.</source>
         <translation>Aici poti chimba limba ClipGrab.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="867"/>
+        <location filename="mainwindow.ui" line="870"/>
         <source>Please select a language from the list below. You have to restart ClipGrab in order to apply you selection.</source>
         <translation>Alege o limba din lista de mai jos. Repornirea ClipGrab este necesara pentru validarea selectiei.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="904"/>
+        <location filename="mainwindow.ui" line="907"/>
         <source>Conversion</source>
         <translation>Conversie</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="927"/>
+        <location filename="mainwindow.ui" line="930"/>
         <source>Experts can create custom presets for the video conversion here.</source>
         <translation>Aici utilizatorii experimentati pot crea preconfigurari pentru conversia video.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="934"/>
+        <location filename="mainwindow.ui" line="937"/>
         <source>Format preset</source>
         <translation>Preconfigurare de format</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="944"/>
+        <location filename="mainwindow.ui" line="947"/>
         <source>Add new preset</source>
         <translation>Adauga preconfigurare noua</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="951"/>
+        <location filename="mainwindow.ui" line="954"/>
         <source>Remove selected preset</source>
         <translation>Elimina preconfigurarea selectata</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="974"/>
+        <location filename="mainwindow.ui" line="977"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="986"/>
-        <location filename="mainwindow.ui" line="1038"/>
+        <location filename="mainwindow.ui" line="989"/>
+        <location filename="mainwindow.ui" line="1041"/>
         <source>Codec</source>
         <translation>Codec</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1012"/>
-        <location filename="mainwindow.ui" line="1100"/>
+        <location filename="mainwindow.ui" line="1015"/>
+        <location filename="mainwindow.ui" line="1103"/>
         <source>Bitrate (kb/s)</source>
         <translation>Bitrate (kb/s)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1019"/>
+        <location filename="mainwindow.ui" line="1022"/>
         <source>Disable Audio</source>
         <translation>Dezactiveaza Audio</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1029"/>
+        <location filename="mainwindow.ui" line="1032"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1051"/>
+        <location filename="mainwindow.ui" line="1054"/>
         <source>Frames/second</source>
         <translation>Cadre/secunda</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1110"/>
+        <location filename="mainwindow.ui" line="1113"/>
         <source>Disable video</source>
         <translation>Dezactiveaza Video</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1125"/>
+        <location filename="mainwindow.ui" line="1128"/>
         <source>About</source>
         <translation>Despre</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1174"/>
+        <location filename="mainwindow.ui" line="1177"/>
         <source>&lt;h2&gt;Translation&lt;/h2&gt;
 ClipGrab is already available in many languages. If ClipGrab has not been translated into your language yet and if you want to contribute a translation, please check &lt;a href=&quot;http://clipgrab.de/translate&quot;&gt;http://clipgrab.de/translate&lt;/a&gt; for further information.</source>
         <translation>&lt;h2&gt;Traducere&lt;/h2&gt;
 ClipGrab este disponibil in mai multe limbi. Daca ClipGrab nu a fost tradus in limba ta si doresti sa-ti aduci contributia, te rugam sa verifici &lt;a href=&quot;http://clipgrab.de/translate&quot;&gt;http://clipgrab.de/translate&lt;/a&gt; pentru informatii suplimentare.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1191"/>
+        <location filename="mainwindow.ui" line="1194"/>
         <source>&lt;h2&gt;Thanks&lt;/h2&gt;
 ClipGrab relies on the work of the Qt project and the ffmpeg team.&lt;br&gt;
 Visit &lt;a href=&quot;http://qt-project.org&quot;&gt;qt-project.org&lt;/a&gt; and &lt;a href=&quot;http://ffmpeg.org&quot;&gt;ffmpeg.org&lt;/a&gt; for further information.</source>
@@ -616,7 +621,7 @@ ClipGrab este bazat pe platforma proiectuliu Qt si al echipei ffmpeg.&lt;br&gt;
 Visiteaza &lt;a href=&quot;http://qt-project.org&quot;&gt;qt-project.org&lt;/a&gt; si &lt;a href=&quot;http://ffmpeg.org&quot;&gt;ffmpeg.org&lt;/a&gt; pentru informatii suplimentare.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1131"/>
+        <location filename="mainwindow.ui" line="1134"/>
         <source>&lt;h2&gt;Support ClipGrab!&lt;/h2&gt;
 &lt;p&gt;Only with your support, ClipGrab can remain free software!&lt;br&gt;So if you like ClipGrab and also want to help ensuring its further development, please consider making a donation.&lt;/p&gt;</source>
         <translation>&lt;h2&gt;Sustine ClipGrab!&lt;/h2&gt;
@@ -801,35 +806,73 @@ Downloading 1080p videos from YouTube is not supported.</source>
     </message>
 </context>
 <context>
+    <name>playlistDialog</name>
+    <message>
+        <location filename="playlist_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="35"/>
+        <source>Grab those clips!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="58"/>
+        <source>Here you can set up the download of multiple videos at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="65"/>
+        <source>Select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="72"/>
+        <source>Add link to list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="79"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="89"/>
+        <source>Deselect all</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>video</name>
     <message>
-        <location filename="video.cpp" line="198"/>
+        <location filename="video.cpp" line="200"/>
         <source>Downloading ...</source>
         <translation>Se descarca...</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="198"/>
+        <location filename="video.cpp" line="200"/>
         <source> MiB</source>
         <translation> MiB</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="157"/>
-        <location filename="video.cpp" line="303"/>
+        <location filename="video.cpp" line="159"/>
+        <location filename="video.cpp" line="305"/>
         <source>Converting ...</source>
         <translation>Se converteste...</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="368"/>
+        <location filename="video.cpp" line="370"/>
         <source>Finished</source>
         <translation>Terminat</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="374"/>
+        <location filename="video.cpp" line="376"/>
         <source>Finished!</source>
         <translation>Terminat!</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="513"/>
+        <location filename="video.cpp" line="515"/>
         <source>Cancelled</source>
         <translation type="unfinished"></translation>
     </message>
@@ -897,7 +940,7 @@ Downloading 1080p videos from YouTube is not supported.</source>
     <message>
         <location filename="video_facebook.cpp" line="111"/>
         <location filename="video_facebook.cpp" line="112"/>
-        <location filename="video_facebook.cpp" line="140"/>
+        <location filename="video_facebook.cpp" line="141"/>
         <source>HD</source>
         <translation type="unfinished">HD</translation>
     </message>
@@ -975,35 +1018,35 @@ Downloading 1080p videos from YouTube is not supported.</source>
 <context>
     <name>video_youtube</name>
     <message>
-        <location filename="video_youtube.cpp" line="150"/>
+        <location filename="video_youtube.cpp" line="152"/>
         <source>HD (1080p)</source>
         <translation type="unfinished">HD (1080p)</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="154"/>
+        <location filename="video_youtube.cpp" line="156"/>
         <source>HD (1440p)</source>
         <translation type="unfinished">HD (720p) {1440p?}</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="158"/>
+        <location filename="video_youtube.cpp" line="160"/>
         <source>4K (2160p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="162"/>
+        <location filename="video_youtube.cpp" line="164"/>
         <source>5K (2880p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="166"/>
+        <location filename="video_youtube.cpp" line="168"/>
         <source>8K (4320p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="469"/>
-        <location filename="video_youtube.cpp" line="500"/>
-        <location filename="video_youtube.cpp" line="596"/>
-        <location filename="video_youtube.cpp" line="599"/>
+        <location filename="video_youtube.cpp" line="498"/>
+        <location filename="video_youtube.cpp" line="529"/>
+        <location filename="video_youtube.cpp" line="625"/>
+        <location filename="video_youtube.cpp" line="628"/>
         <source>Original</source>
         <translation type="unfinished">Originala</translation>
     </message>
@@ -1024,7 +1067,7 @@ Downloading 1080p videos from YouTube is not supported.</source>
         <translation type="obsolete">slaba</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="652"/>
+        <location filename="video_youtube.cpp" line="681"/>
         <source>normal</source>
         <translation>normala</translation>
     </message>

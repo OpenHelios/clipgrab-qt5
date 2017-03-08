@@ -512,6 +512,10 @@ Visit &lt;a href=&quot;http://qt-project.org&quot;&gt;qt-project.org&lt;/a&gt; a
         <source>Remember video quality</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>…</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MetadataDialog</name>
@@ -644,6 +648,37 @@ Downloading 1080p videos from YouTube is not supported.</source>
     <message>
         <source>about:blank</source>
         <translation type="unfinished">about:blank</translation>
+    </message>
+</context>
+<context>
+    <name>playlistDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Grab those clips!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Here you can set up the download of multiple videos at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add link to list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Deselect all</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

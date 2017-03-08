@@ -92,10 +92,6 @@ void http_handler::continueDownload(download* dl)
     {
         request = createRequest(dl->reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl());
         dl->redirectLevel ++;
-
-        QString fileTemplate = dl->tempFile->fileTemplate();
-        dl->tempFile->deleteLater();
-        dl->tempFile = new QTemporaryFile(fileTemplate);
     }
 
     //In case of 206 status (successful range request)
@@ -229,6 +225,7 @@ void http_handler::handleNetworkReply(QNetworkReply* reply)
     {
         reply->close();
 
+        dl->redirectLevel = 0;
         dl->segmentPosition++;
         QNetworkRequest request = createRequest(QUrl::fromEncoded(dl->segments.at(dl->segmentPosition).toAscii()));
         dl->progress = dl->getProgress();
@@ -289,44 +286,44 @@ void http_handler::dataHandler()
 {
     QNetworkReply* reply = qobject_cast<QNetworkReply*>(QObject::sender());
     download* dl = getDownload(reply);
-	
-	if (dl)
-	{
 
-		//Update current progress on chunk/download
-		dl->currentProgress += reply->bytesAvailable();
+    if (dl)
+    {
 
-		//Write data to temp files
-		if (dl->tempFile && dl->tempFile->open())
-		{
-			dl->tempFile->write(reply->readAll());
-		}
+        //Update current progress on chunk/download
+        dl->currentProgress += reply->bytesAvailable();
 
-		//Update progress and file size
+        //Write data to temp files
+        if (dl->tempFile && (dl->tempFile->isOpen() || dl->tempFile->open()))
+        {
+            dl->tempFile->write(reply->readAll());
+        }
 
-		if (reply->hasRawHeader("Content-Range"))
-		{
-			dl->size = QString(reply->rawHeader("Content-Range")).split("/").last().toLongLong();
-		}
+        //Update progress and file size
+
+        if (reply->hasRawHeader("Content-Range"))
+        {
+            dl->size = QString(reply->rawHeader("Content-Range")).split("/").last().toLongLong();
+        }
         else if (!dl->segments.isEmpty())
         {
             qlonglong currentSegmentSize = reply->header(QNetworkRequest::ContentLengthHeader).toLongLong();
             qlonglong previousSegmentsSize = dl->tempFile->size();
             dl->size =  (previousSegmentsSize - dl->currentProgress + currentSegmentSize)/(dl->segmentPosition+2)*dl->segments.length();
         }
-		else {
-			dl->size = reply->header(QNetworkRequest::ContentLengthHeader).toLongLong();
-		}
+        else {
+            dl->size = reply->header(QNetworkRequest::ContentLengthHeader).toLongLong();
+        }
 
-		qint64 totalProgress = 0;
-		qint64 totalBytes  = 0;
-		for (int i=0; i < this->downloads.size(); i++)
-		{
-			totalProgress += this->downloads.at(i)->getProgress();
-			totalBytes += this->downloads.at(i)->size;
-		}
-		emit downloadProgress(totalProgress, totalBytes);
-	}
+        qint64 totalProgress = 0;
+        qint64 totalBytes  = 0;
+        for (int i=0; i < this->downloads.size(); i++)
+        {
+            totalProgress += this->downloads.at(i)->getProgress();
+            totalBytes += this->downloads.at(i)->size;
+        }
+        emit downloadProgress(totalProgress, totalBytes);
+    }
 }
 
 void http_handler::handleFinishedDownload(download* dl)

@@ -10,22 +10,22 @@
         <translation>Automatické rozpoznávání jazyka</translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="469"/>
+        <location filename="clipgrab.cpp" line="486"/>
         <source>Downloading update … %1/%2 MBytes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="478"/>
+        <location filename="clipgrab.cpp" line="495"/>
         <source>There was an error while downloading the update.: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="492"/>
+        <location filename="clipgrab.cpp" line="509"/>
         <source>The fingerprint of the downloaded update file could not be verified: %1 should have been %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="clipgrab.cpp" line="504"/>
+        <location filename="clipgrab.cpp" line="521"/>
         <source>Could not open update file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -82,148 +82,148 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="mainwindow.cpp" line="247"/>
-        <location filename="mainwindow.cpp" line="259"/>
+        <location filename="mainwindow.cpp" line="249"/>
+        <location filename="mainwindow.cpp" line="261"/>
         <source>Select Target</source>
         <translation type="unfinished">Vyberte soubor k uložení</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="329"/>
+        <location filename="mainwindow.cpp" line="331"/>
         <source>Please wait while ClipGrab is loading information about the video ...</source>
         <translation>Čekejte, prosím, ClipGrab stahuje informace o videu ...</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="346"/>
+        <location filename="mainwindow.cpp" line="348"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>Prosím, vložte odkaz na video ke stažení do dolního políčka.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="351"/>
+        <location filename="mainwindow.cpp" line="353"/>
         <source>The link you have entered seems to not be recognised by any of the supported portals.&lt;br/&gt;Now ClipGrab will check if it can download a video from that site anyway.</source>
         <translation>Odkaz, který jste zadal, není známý žadnému podporovanému portálu.&lt;br/&gt;ClipGrab teď zkusí, jestli se přesto podaří video stáhnout.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="398"/>
+        <location filename="mainwindow.cpp" line="400"/>
         <source>No downloadable video could be found.&lt;br /&gt;Maybe you have entered the wrong link or there is a problem with your connection.</source>
         <translation>Nebyly nalezeny žádné klipy.&lt;br /&gt;Buďto jste vložil neplatný odkaz nebo máte problém s Vaším připojením.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="411"/>
+        <location filename="mainwindow.cpp" line="413"/>
         <source>ClipGrab - Select target path</source>
         <translation>ClipGrab - zvolte cílovou složku</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="458"/>
+        <location filename="mainwindow.cpp" line="460"/>
         <source>ClipGrab: Video discovered in your clipboard</source>
         <translation>ClipGrab: ve schránce bylo nalezeno video</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="458"/>
+        <location filename="mainwindow.cpp" line="460"/>
         <source>ClipGrab has discovered the address of a compatible video in your clipboard. Click on this message to download it now.</source>
         <translation>ClipGrab našel ve schránce odkaz na kompatibilní klip. Klepněte na tuto zprávu pro zahájení stahování.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="566"/>
         <source>ClipGrab - Exit confirmation</source>
         <translation>ClipGrab - potvďte ukončení</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="564"/>
+        <location filename="mainwindow.cpp" line="566"/>
         <source>There is still at least one download in progress.&lt;br /&gt;If you exit the program now, all downloads will be canceled and cannot be recovered later.&lt;br /&gt;Do you really want to quit ClipGrab now?</source>
         <translation>Ještě nějaké stahování běží.&lt;br /&gt;Pokud ukončíte program teď, běžící stahování budou zrušena a už nebudou obnovena.&lt;br /&gt;Opravdu chcete ClipGrab zavřít?</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="601"/>
+        <location filename="mainwindow.cpp" line="603"/>
         <source>Download finished</source>
         <translation>Stahování skončeno</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="601"/>
+        <location filename="mainwindow.cpp" line="603"/>
         <source>Downloading and converting “%title” is now finished.</source>
         <translation>Stažení a konverze “%title” je teď hotové.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="mainwindow.cpp" line="607"/>
         <source>All downloads finished</source>
         <translation>Všechna stahování skončila</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="605"/>
+        <location filename="mainwindow.cpp" line="607"/>
         <source>ClipGrab has finished downloading and converting all selected videos.</source>
         <translation>ClipGrab stáhl a zkonvertoval všechna vybraná videa.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="670"/>
         <location filename="mainwindow.cpp" line="672"/>
-        <location filename="mainwindow.cpp" line="679"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <location filename="mainwindow.cpp" line="681"/>
+        <location filename="mainwindow.cpp" line="683"/>
         <source>ClipGrab</source>
         <translation>ClipGrab</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="670"/>
         <location filename="mainwindow.cpp" line="672"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <source> MiB</source>
         <translation> MiB</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="672"/>
+        <location filename="mainwindow.cpp" line="674"/>
         <source> KiB</source>
         <translation> KiB</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="679"/>
         <location filename="mainwindow.cpp" line="681"/>
+        <location filename="mainwindow.cpp" line="683"/>
         <source>Currently no downloads in progress.</source>
         <translation>Neprobíhá žádné stahování.</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="682"/>
+        <location filename="mainwindow.cpp" line="684"/>
         <source>ClipGrab - Download and Convert Online Videos</source>
         <translation>ClipGrab - stahování a konverze klipů z Internetu</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="878"/>
+        <location filename="mainwindow.cpp" line="880"/>
         <source>&amp;Open downloaded file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="879"/>
+        <location filename="mainwindow.cpp" line="881"/>
         <source>Open &amp;target folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="881"/>
+        <location filename="mainwindow.cpp" line="883"/>
         <source>&amp;Pause download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="882"/>
+        <location filename="mainwindow.cpp" line="884"/>
         <source>&amp;Restart download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="883"/>
+        <location filename="mainwindow.cpp" line="885"/>
         <source>&amp;Cancel download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="885"/>
+        <location filename="mainwindow.cpp" line="887"/>
         <source>Copy &amp;video link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="886"/>
+        <location filename="mainwindow.cpp" line="888"/>
         <source>Open video link in &amp;browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="891"/>
+        <location filename="mainwindow.cpp" line="893"/>
         <source>Resume download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="900"/>
+        <location filename="mainwindow.cpp" line="902"/>
         <source>Show in &amp;Finder</source>
         <translation type="unfinished"></translation>
     </message>
@@ -236,383 +236,388 @@ p, li { white-space: pre-wrap; }
         <translation>ClipGrab - stažení a konverze klipů z Internetu</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="152"/>
+        <location filename="mainwindow.ui" line="136"/>
         <source>Search</source>
         <translation>Hledání</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="171"/>
+        <location filename="mainwindow.ui" line="155"/>
         <source>Enter keywords in the box below in order to search videos on YouTube</source>
         <translation>Zapište hledaná klíčová slova pro vyhledávání v YouTube do políčka</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="179"/>
+        <location filename="mainwindow.ui" line="163"/>
         <source>about:blank</source>
         <translation>about:blank</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="188"/>
+        <location filename="mainwindow.ui" line="172"/>
         <source>Downloads</source>
         <translation>Stahování</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="197"/>
+        <location filename="mainwindow.ui" line="370"/>
         <source>Grab this clip!</source>
         <translation>Stáhni klip!</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="226"/>
+        <location filename="mainwindow.ui" line="203"/>
         <source>Quality:</source>
         <translation>Kvalita:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="242"/>
+        <location filename="mainwindow.ui" line="216"/>
         <source>Please enter the link to the video you want to download in the field below.</source>
         <translation>Prosím, vložte odkaz na klip ke stažení do políčka níže.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="277"/>
+        <location filename="mainwindow.ui" line="251"/>
         <source>Format:</source>
         <translation>Formát:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="316"/>
+        <location filename="mainwindow.ui" line="290"/>
         <source>Current Downloads:</source>
         <translation>Teď se stahuje:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="326"/>
+        <location filename="mainwindow.ui" line="300"/>
         <source>Cancel selected download</source>
         <translation>Zrušit vybrané stahování</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="336"/>
+        <location filename="mainwindow.ui" line="310"/>
         <source>Open the target folder of the selected download</source>
         <translation>Otevřít adresář se staženými klipy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="356"/>
+        <location filename="mainwindow.ui" line="330"/>
         <source>Portal</source>
         <translation>Portál</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="361"/>
+        <location filename="mainwindow.ui" line="335"/>
         <source>Title</source>
         <translation>Klip</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="366"/>
+        <location filename="mainwindow.ui" line="340"/>
         <source>Format</source>
         <translation>Formát</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="371"/>
+        <location filename="mainwindow.ui" line="345"/>
         <source>Progress</source>
         <translation>Postup</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="382"/>
+        <location filename="mainwindow.ui" line="356"/>
         <source>Pause selected download</source>
         <translation>Pozastavit vybrané stahování</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="394"/>
+        <location filename="mainwindow.ui" line="389"/>
+        <source>…</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="397"/>
         <source>Settings</source>
         <translation>Nastavení</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="407"/>
+        <location filename="mainwindow.ui" line="410"/>
         <source>General</source>
         <translation>Všeobecná</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="431"/>
+        <location filename="mainwindow.ui" line="434"/>
         <source>Here you can adjust some general settings concerning the behaviour of ClipGrab.</source>
         <translation>Tady se dá nastavit chování programu ClipGrab.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="442"/>
+        <location filename="mainwindow.ui" line="445"/>
         <source>Target Path</source>
         <translation>Cílový adresář</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="448"/>
+        <location filename="mainwindow.ui" line="451"/>
         <source>Always save at the last used path.</source>
         <translation>Ukládej vždycky do posledně použité složky.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="462"/>
+        <location filename="mainwindow.ui" line="465"/>
         <source>Here you can configure where the downloaded videos are to be saved.</source>
         <translation>Tady se nastavuje, kam se budou ukládat stažené klipy.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="469"/>
+        <location filename="mainwindow.ui" line="472"/>
         <source>Browse ...</source>
         <translation>Vybrat ...</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="476"/>
+        <location filename="mainwindow.ui" line="479"/>
         <source>Never ask for file name</source>
         <translation>Nikdy se neptat na jméno souboru (automaticky určeno)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="497"/>
+        <location filename="mainwindow.ui" line="500"/>
         <source>Metadata</source>
         <translation>Metadata</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="503"/>
+        <location filename="mainwindow.ui" line="506"/>
         <source>Here you can configure if ClipGrab is supposed to add metadata (ID3 tags) to your mp3 files.</source>
         <translation>Tady můžete nastavit, jestli chcete, aby ClipGrab nastavoval metadata (ID3 Tagy) do MP3 souborů.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="510"/>
+        <location filename="mainwindow.ui" line="513"/>
         <source>Use metadata</source>
         <translation>Nastavit metadata</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="531"/>
+        <location filename="mainwindow.ui" line="534"/>
         <source>Clipboard</source>
         <translation>Schránka</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="537"/>
+        <location filename="mainwindow.ui" line="540"/>
         <source>Here you can configure how ClipGrab behaves when a downloadable video is discovered in your clipboard.</source>
         <translation>Tady se nastavuje, jak se ClipGrab zachová, když se ve schránce objeví odkaz na stáhnutelný klip.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="544"/>
+        <location filename="mainwindow.ui" line="547"/>
         <source>Always download</source>
         <translation>Vždycky stáhnout</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="551"/>
+        <location filename="mainwindow.ui" line="554"/>
         <source>Never download</source>
         <translation>Nikdy nestahovat</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="558"/>
+        <location filename="mainwindow.ui" line="561"/>
         <source>Always ask</source>
         <translation>Vždycky se zeptat</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="579"/>
+        <location filename="mainwindow.ui" line="582"/>
         <source>Notifications</source>
         <translation>Upozornění</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="585"/>
+        <location filename="mainwindow.ui" line="588"/>
         <source>After each download</source>
         <translation>Po každém stažení klipu</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="592"/>
+        <location filename="mainwindow.ui" line="595"/>
         <source>After all downloads have been completed</source>
         <translation>Po stažení všech klipů</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="612"/>
+        <location filename="mainwindow.ui" line="615"/>
         <source>Here you can configure when ClipGrab is supposed to display notifications.</source>
         <translation>Zde se nastavuje, za jakých okolností ukazuje ClipGrab upozornění.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="619"/>
+        <location filename="mainwindow.ui" line="622"/>
         <source>Never</source>
         <translation>Nikdy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="627"/>
+        <location filename="mainwindow.ui" line="630"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="633"/>
+        <location filename="mainwindow.ui" line="636"/>
         <source>Use a proxy server</source>
         <translation>Použít proxy server</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="643"/>
+        <location filename="mainwindow.ui" line="646"/>
         <source>Proxy settings</source>
         <translation>Nastavení proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="652"/>
+        <location filename="mainwindow.ui" line="655"/>
         <source>Hostname/IP:</source>
         <translation>Jméno/IP:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="659"/>
+        <location filename="mainwindow.ui" line="662"/>
         <source>Port:</source>
         <translation>Port:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="686"/>
+        <location filename="mainwindow.ui" line="689"/>
         <source>Proxy type:</source>
         <translation>Typ proxy:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="694"/>
+        <location filename="mainwindow.ui" line="697"/>
         <source>HTTP Proxy</source>
         <translation>HTTP (web) Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="699"/>
+        <location filename="mainwindow.ui" line="702"/>
         <source>Socks5 Proxy</source>
         <translation>Socks5 Proxy</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="726"/>
+        <location filename="mainwindow.ui" line="729"/>
         <source>Proxy authentication</source>
         <translation>Přihlášení na proxy server</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="732"/>
+        <location filename="mainwindow.ui" line="735"/>
         <source>Username:</source>
         <translation>Uživatel:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="749"/>
+        <location filename="mainwindow.ui" line="752"/>
         <source>Password:</source>
         <translation>Heslo:</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="762"/>
+        <location filename="mainwindow.ui" line="765"/>
         <source>Proxy requires authentication</source>
         <translation>Proxy vyžaduje přihlášení</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="770"/>
+        <location filename="mainwindow.ui" line="773"/>
         <source>Other</source>
         <translation>Jiné</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="797"/>
+        <location filename="mainwindow.ui" line="800"/>
         <source>Remove finished downloads from list</source>
         <translation>Odstranit dokončená stahování z listu</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="776"/>
+        <location filename="mainwindow.ui" line="779"/>
         <source>Minimize ClipGrab to the system tray</source>
         <translation>Minimalizovat ClipGrab do oznamovací oblasti</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="783"/>
+        <location filename="mainwindow.ui" line="786"/>
         <source>Use WebM if possible</source>
         <translation>Použít WebM, pokud je to možné</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="790"/>
+        <location filename="mainwindow.ui" line="793"/>
         <source>Ignore SSL errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="817"/>
+        <location filename="mainwindow.ui" line="820"/>
         <source>Remember logins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="824"/>
+        <location filename="mainwindow.ui" line="827"/>
         <source>Remember video quality</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="836"/>
+        <location filename="mainwindow.ui" line="839"/>
         <source>Language</source>
         <translation>Jazyk</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="860"/>
+        <location filename="mainwindow.ui" line="863"/>
         <source>Here you can change the language of ClipGrab.</source>
         <translation>Tady se dá změnit jazyk uživatelského rozhraní ClipGrab-u.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="867"/>
+        <location filename="mainwindow.ui" line="870"/>
         <source>Please select a language from the list below. You have to restart ClipGrab in order to apply you selection.</source>
         <translation>Prosím, vyberte si jazyk ze seznamu. Změna se projeví po restartu aplikace.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="904"/>
+        <location filename="mainwindow.ui" line="907"/>
         <source>Conversion</source>
         <translation>Konverze</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="927"/>
+        <location filename="mainwindow.ui" line="930"/>
         <source>Experts can create custom presets for the video conversion here.</source>
         <translation>Experti si mohou vytvořit vlastní konfigurace pro konverzi videa.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="934"/>
+        <location filename="mainwindow.ui" line="937"/>
         <source>Format preset</source>
         <translation>Jméno konfigurace</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="944"/>
+        <location filename="mainwindow.ui" line="947"/>
         <source>Add new preset</source>
         <translation>Přidat konfiguraci</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="951"/>
+        <location filename="mainwindow.ui" line="954"/>
         <source>Remove selected preset</source>
         <translation>Smazat vybranou konfiguraci</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="974"/>
+        <location filename="mainwindow.ui" line="977"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="986"/>
-        <location filename="mainwindow.ui" line="1038"/>
+        <location filename="mainwindow.ui" line="989"/>
+        <location filename="mainwindow.ui" line="1041"/>
         <source>Codec</source>
         <translation>Kodek</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1012"/>
-        <location filename="mainwindow.ui" line="1100"/>
+        <location filename="mainwindow.ui" line="1015"/>
+        <location filename="mainwindow.ui" line="1103"/>
         <source>Bitrate (kb/s)</source>
         <translation>Šířka pásma (kb/s)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1019"/>
+        <location filename="mainwindow.ui" line="1022"/>
         <source>Disable Audio</source>
         <translation>Vypnout zvuk</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1029"/>
+        <location filename="mainwindow.ui" line="1032"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1051"/>
+        <location filename="mainwindow.ui" line="1054"/>
         <source>Frames/second</source>
         <translation>Snímky za sekundu</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1110"/>
+        <location filename="mainwindow.ui" line="1113"/>
         <source>Disable video</source>
         <translation>Vypnout video</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1125"/>
+        <location filename="mainwindow.ui" line="1128"/>
         <source>About</source>
         <translation>O programu</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1131"/>
+        <location filename="mainwindow.ui" line="1134"/>
         <source>&lt;h2&gt;Support ClipGrab!&lt;/h2&gt;
 &lt;p&gt;Only with your support, ClipGrab can remain free software!&lt;br&gt;So if you like ClipGrab and also want to help ensuring its further development, please consider making a donation.&lt;/p&gt;</source>
         <translation>&lt;h2&gt;Podpořte ClipGrab!&lt;/h2&gt;
 &lt;p&gt;Jen s Vaší podporou může ClipGrab zůstat programem zadarmo!&lt;br&gt;Jestli se Vám líbí ClipGrab a chcete podpořit jeho další vývoj, zvažte, prosím, jeho finanční podporu.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1174"/>
+        <location filename="mainwindow.ui" line="1177"/>
         <source>&lt;h2&gt;Translation&lt;/h2&gt;
 ClipGrab is already available in many languages. If ClipGrab has not been translated into your language yet and if you want to contribute a translation, please check &lt;a href=&quot;http://clipgrab.de/translate&quot;&gt;http://clipgrab.de/translate&lt;/a&gt; for further information.</source>
         <translation>&lt;h2&gt;Překlady&lt;/h2&gt;
 ClipGrab už je dostupný v mnoha jazycích. Jestliže ClipGrab ještě nebyl přeložen do Vašeho jazyka a chtěl byste udělat překlad, podívejte se na &lt;a href=&quot;http://clipgrab.de/translate&quot;&gt;http://clipgrab.de/translate&lt;/a&gt; pro další inormace.</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="1191"/>
+        <location filename="mainwindow.ui" line="1194"/>
         <source>&lt;h2&gt;Thanks&lt;/h2&gt;
 ClipGrab relies on the work of the Qt project and the ffmpeg team.&lt;br&gt;
 Visit &lt;a href=&quot;http://qt-project.org&quot;&gt;qt-project.org&lt;/a&gt; and &lt;a href=&quot;http://ffmpeg.org&quot;&gt;ffmpeg.org&lt;/a&gt; for further information.</source>
@@ -783,35 +788,73 @@ Downloading 1080p videos from YouTube is not supported.</source>
     </message>
 </context>
 <context>
+    <name>playlistDialog</name>
+    <message>
+        <location filename="playlist_dialog.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="35"/>
+        <source>Grab those clips!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="58"/>
+        <source>Here you can set up the download of multiple videos at once.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="65"/>
+        <source>Select all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="72"/>
+        <source>Add link to list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="79"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="playlist_dialog.ui" line="89"/>
+        <source>Deselect all</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>video</name>
     <message>
-        <location filename="video.cpp" line="198"/>
+        <location filename="video.cpp" line="200"/>
         <source>Downloading ...</source>
         <translation>Stahování ...</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="198"/>
+        <location filename="video.cpp" line="200"/>
         <source> MiB</source>
         <translation> MiB</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="157"/>
-        <location filename="video.cpp" line="303"/>
+        <location filename="video.cpp" line="159"/>
+        <location filename="video.cpp" line="305"/>
         <source>Converting ...</source>
         <translation>Konverze ...</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="368"/>
+        <location filename="video.cpp" line="370"/>
         <source>Finished</source>
         <translation>Hotovo</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="374"/>
+        <location filename="video.cpp" line="376"/>
         <source>Finished!</source>
         <translation>Hotovo!</translation>
     </message>
     <message>
-        <location filename="video.cpp" line="513"/>
+        <location filename="video.cpp" line="515"/>
         <source>Cancelled</source>
         <translation type="unfinished"></translation>
     </message>
@@ -871,7 +914,7 @@ Downloading 1080p videos from YouTube is not supported.</source>
     <message>
         <location filename="video_facebook.cpp" line="111"/>
         <location filename="video_facebook.cpp" line="112"/>
-        <location filename="video_facebook.cpp" line="140"/>
+        <location filename="video_facebook.cpp" line="141"/>
         <source>HD</source>
         <translation type="unfinished">HD</translation>
     </message>
@@ -949,35 +992,35 @@ Downloading 1080p videos from YouTube is not supported.</source>
 <context>
     <name>video_youtube</name>
     <message>
-        <location filename="video_youtube.cpp" line="150"/>
+        <location filename="video_youtube.cpp" line="152"/>
         <source>HD (1080p)</source>
         <translation type="unfinished">HD (1080p)</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="154"/>
+        <location filename="video_youtube.cpp" line="156"/>
         <source>HD (1440p)</source>
         <translation type="unfinished">HD (720p) {1440p?}</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="158"/>
+        <location filename="video_youtube.cpp" line="160"/>
         <source>4K (2160p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="162"/>
+        <location filename="video_youtube.cpp" line="164"/>
         <source>5K (2880p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="166"/>
+        <location filename="video_youtube.cpp" line="168"/>
         <source>8K (4320p)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="469"/>
-        <location filename="video_youtube.cpp" line="500"/>
-        <location filename="video_youtube.cpp" line="596"/>
-        <location filename="video_youtube.cpp" line="599"/>
+        <location filename="video_youtube.cpp" line="498"/>
+        <location filename="video_youtube.cpp" line="529"/>
+        <location filename="video_youtube.cpp" line="625"/>
+        <location filename="video_youtube.cpp" line="628"/>
         <source>Original</source>
         <translation type="unfinished">Původní</translation>
     </message>
@@ -998,7 +1041,7 @@ Downloading 1080p videos from YouTube is not supported.</source>
         <translation type="obsolete">nízká (240 p)</translation>
     </message>
     <message>
-        <location filename="video_youtube.cpp" line="652"/>
+        <location filename="video_youtube.cpp" line="681"/>
         <source>normal</source>
         <translation>normální</translation>
     </message>

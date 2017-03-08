@@ -28,7 +28,11 @@
         <file>clipgrab_sr.qm</file>
         <file>clipgrab_no.qm</file>
         <file>clipgrab_vi.qm</file>
+        <file>clipgrab_fa.qm</file>
         <file>clipgrab_sw.qm</file>
+        <file>clipgrab_ca.qm</file>
+        <file>clipgrab_si.qm</file>
+        <file>clipgrab_sv.qm</file>
     </qresource>
     <qresource prefix="/crt">
         <file>equifax_secure_ca.crt</file>

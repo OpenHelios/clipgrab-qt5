@@ -31,7 +31,7 @@ video_dailymotion::video_dailymotion()
     this->_supportsThumbnail = true;
     this->_supportsSearch = true;
     this->_icon = 0;
-    this->_urlRegExp << QRegExp("http://\\w*\\.dailymotion\\.com/video/.*", Qt::CaseInsensitive);
+    this->_urlRegExp << QRegExp("http[s]?://\\w*\\.dailymotion\\.com/video/.*", Qt::CaseInsensitive);
 }
 
 video* video_dailymotion::createNewInstance()
@@ -72,7 +72,7 @@ void video_dailymotion::parseVideo(QString html)
         _title = QString(expression.cap(1));
 
         html = QUrl::fromEncoded(html.toAscii()).toString(QUrl::None);
-        expression = QRegExp("config\\s*=\\s*(\\{.+\\});");
+        expression = QRegExp("var config\\s*=\\s*(\\{.+\\});");
         expression.setMinimal(true);
         qDebug() << expression.indexIn(html);
         if (expression.indexIn(html)!=-1)
