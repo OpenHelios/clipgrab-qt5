@@ -602,6 +602,7 @@ void MainWindow::on_settingsNeverAskForPath_stateChanged(int state)
         if (exitBox->exec() == QMessageBox::Yes)
         {
             cg->cancelAll();
+            systemTrayIcon.hide();
             event->accept();
         }
         else
@@ -611,6 +612,7 @@ void MainWindow::on_settingsNeverAskForPath_stateChanged(int state)
     }
     else
     {
+       systemTrayIcon.hide();
        event->accept();;
     }
  }
