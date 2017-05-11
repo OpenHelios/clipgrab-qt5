@@ -63,9 +63,12 @@ void video_vimeo::parseVideo(QString data)
     if (this->downloading.isEmpty() || this->downloading == "html")
     {
         QRegExp expression;
-        expression = QRegExp("\"(https://player.vimeo.com/video/\\d+/config[^\"]*)\"");
+        QString expressionString = "\"(https://player.vimeo.com/video/\\d+/config[^\"]*)\"";
+        expressionString.replace("/", "\\\\/");
+        expression = QRegExp(expressionString);
         if (expression.indexIn(data) > -1) {
-            QString jsonUrl = expression.cap(1).replace("&amp;", "&");
+            QString jsonUrl = expression.cap(1).replace("&amp;", "&").replace("\\/", "/");
+            qDebug() << "Using config URL" << jsonUrl;
             this->downloading = "json";
             handler->addDownload(jsonUrl);
         }
@@ -85,8 +88,15 @@ void video_vimeo::parseVideo(QString data)
                 if (passwordDialog->exec() == QDialog::Accepted)
                 {
                     handler->addDownload(this->_url.toString());
-                    return;
                 }
+                else
+                {
+                    emit error("This video requires you to be signed in.", this);
+                    emit analysingFinished();
+                }
+
+                passwordDialog->deleteLater();
+                return;
             }
             emit error("Could not retrieve video info.", this);
             emit analysingFinished();

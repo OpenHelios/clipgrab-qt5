@@ -134,6 +134,11 @@ ClipGrab::ClipGrab()
     newLang.isRTL = false;
     languages.append(newLang);
 
+    newLang.name = QString::fromLocal8Bit("한국어");
+    newLang.code = "ko";
+    newLang.isRTL = false;
+    languages.append(newLang);
+
     newLang.name = QString::fromLocal8Bit("ਪੰਜਾਬੀ");
     newLang.code = "pa";
     newLang.isRTL = false;

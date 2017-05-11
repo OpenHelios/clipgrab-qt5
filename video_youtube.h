@@ -94,7 +94,8 @@ class video_youtube : public video
         virtual void parseVideo(QString);
 
     public slots:
-        void handleLogin();
+        void handleLoginUrlChanged(const QUrl);
+        void handleLoginLoadFinished();
 };
 
 #endif // video_YOUTUBE_H

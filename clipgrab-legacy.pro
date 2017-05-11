@@ -61,6 +61,7 @@ TRANSLATIONS += clipgrab_ca.ts \
                 clipgrab_id.ts \
                 clipgrab_it.ts \
                 clipgrab_ja.ts \
+                clipgrab_ko.ts \
                 clipgrab_nl.ts \
                 clipgrab_no.ts \
                 clipgrab_pl.ts \
@@ -85,6 +86,6 @@ macx {
     CONFIG += x86 ppc
     QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.5
 }
-VERSION = 3.6.4
+VERSION = 3.6.5
 DEFINES += MAC_LEGACY
 DEFINES += CLIPGRAB_VERSION='"$${VERSION}"'

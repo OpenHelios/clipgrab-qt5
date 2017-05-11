@@ -61,6 +61,7 @@ TRANSLATIONS += clipgrab_ca.ts \
                 clipgrab_id.ts \
                 clipgrab_it.ts \
                 clipgrab_ja.ts \
+                clipgrab_ko.ts \
                 clipgrab_nl.ts \
                 clipgrab_no.ts \
                 clipgrab_pl.ts \
@@ -89,5 +90,5 @@ macx {
     OBJECTIVE_SOURCES += savedialog_mac.mm
     LIBS += -framework AppKit -framework Foundation
 }
-VERSION = 3.6.4
+VERSION = 3.6.5
 DEFINES += CLIPGRAB_VERSION=$$VERSION

@@ -288,14 +288,22 @@ void video_youtube::parseVideo(QString html)
                 dui = new Ui::LoginDialog();
                 passwordDialog = new QDialog;
                 dui->setupUi(passwordDialog);
-                connect(dui->loginDialogWebView, SIGNAL(loadFinished(bool)), this, SLOT(handleLogin()));
+                connect(dui->loginDialogWebView, SIGNAL(urlChanged(QUrl)), this, SLOT(handleLoginUrlChanged(QUrl)));
+                connect(dui->loginDialogWebView, SIGNAL(loadFinished(bool)), this, SLOT(handleLoginLoadFinished()));
                 dui->loginDialogWebView->setUrl(QUrl::fromUserInput(expression.cap(1).replace("&amp;", "&")));
                 dui->rememberLogin->setChecked(settings.value("youtubeRememberLogin", true).toBool());
+                dui->loginDialogWebView->setFocus();
 
                 if (passwordDialog->exec() == QDialog::Accepted)
                 {
                     handler->addDownload(this->_url.toString());
                 }
+                else
+                {
+                    emit error("This video requires you to be signed in.", this);
+                    emit analysingFinished();
+                }
+
                 passwordDialog->deleteLater();
                 return;
             }
@@ -691,25 +699,33 @@ QString video_youtube::parseSignature(QString s)
     return s;
 }
 
-void video_youtube::handleLogin()
+
+
+void video_youtube::handleLoginUrlChanged(const QUrl url)
 {
-    QUrl url = dui->loginDialogWebView->url();
-    if (this->compatibleWithUrl(url.toString()))
+    if (!this->compatibleWithUrl(url.toString()))
     {
-        QList<QNetworkCookie> cookies = dui->loginDialogWebView->page()->networkAccessManager()->cookieJar()->cookiesForUrl(url);
-
-        QSettings settings;
-        if (dui->rememberLogin->isChecked())
-        {
-            settings.setValue("youtubeCookies", this->handler->serializeCookies(cookies));
-        }
-        else
-        {
-            settings.remove("youtubeCookies");
-        }
-        settings.setValue("youtubeRememberLogin", dui->rememberLogin->isChecked());
-
-        this->handler->networkAccessManager->cookieJar()->setCookiesFromUrl(cookies, url);
-        passwordDialog->accept();
+        return;
     }
+
+    QList<QNetworkCookie> cookies = dui->loginDialogWebView->page()->networkAccessManager()->cookieJar()->cookiesForUrl(url);
+
+    QSettings settings;
+    if (dui->rememberLogin->isChecked())
+    {
+        settings.setValue("youtubeCookies", this->handler->serializeCookies(cookies));
+    }
+    else
+    {
+        settings.remove("youtubeCookies");
+    }
+    settings.setValue("youtubeRememberLogin", dui->rememberLogin->isChecked());
+
+    this->handler->networkAccessManager->cookieJar()->setCookiesFromUrl(cookies, url);
+    passwordDialog->accept();
+}
+
+void video_youtube::handleLoginLoadFinished()
+{
+    dui->loginDialogWebView->history()->clear();
 }
